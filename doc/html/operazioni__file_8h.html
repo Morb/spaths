@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
 <title>SPaths: Riferimenti per il file operazioni_file.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -30,7 +31,7 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- Generato da Doxygen 1.8.1.2 -->
+<!-- Generato da Doxygen 1.8.7 -->
 <script type="text/javascript">
 var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
 </script>
@@ -85,21 +86,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
 <div class="title">Riferimenti per il file operazioni_file.h</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;iostream&gt;</code><br/>
-<code>#include &lt;fstream&gt;</code><br/>
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
 </div>
 <p><a href="operazioni__file_8h_source.html">Vai al codice sorgente di questo file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2><a name="func-members"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Funzioni</h2></td></tr>
 <tr class="memitem:a277879f2f99ec2b12ee47a29f71dac3a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="operazioni__file_8h.html#a277879f2f99ec2b12ee47a29f71dac3a">salva_su_file</a> (const <a class="el" href="structgrafo.html">grafo</a> &amp;G, const char nomefile[])</td></tr>
-<tr class="memdesc:a277879f2f99ec2b12ee47a29f71dac3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Salva un grafo passato per parametro su un file di testo.  <a href="#a277879f2f99ec2b12ee47a29f71dac3a"></a><br/></td></tr>
+<tr class="memdesc:a277879f2f99ec2b12ee47a29f71dac3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Salva un grafo passato per parametro su un file di testo.  <a href="#a277879f2f99ec2b12ee47a29f71dac3a">Continua...</a><br /></td></tr>
+<tr class="separator:a277879f2f99ec2b12ee47a29f71dac3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe5192c77f55bc02dfe644658cefbe1b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="operazioni__file_8h.html#abe5192c77f55bc02dfe644658cefbe1b">carica_da_file</a> (<a class="el" href="structgrafo.html">grafo</a> &amp;G, const char nomefile[])</td></tr>
-<tr class="memdesc:abe5192c77f55bc02dfe644658cefbe1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carica un grafo da file sul grafo passato per riferimento.  <a href="#abe5192c77f55bc02dfe644658cefbe1b"></a><br/></td></tr>
+<tr class="memdesc:abe5192c77f55bc02dfe644658cefbe1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Carica un grafo da file sul grafo passato per riferimento.  <a href="#abe5192c77f55bc02dfe644658cefbe1b">Continua...</a><br /></td></tr>
+<tr class="separator:abe5192c77f55bc02dfe644658cefbe1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2>Descrizione dettagliata</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Descrizione dettagliata</h2>
 <div class="textblock"><p>Questo è l'header file di <a class="el" href="operazioni__file_8cc.html">operazioni_file.cc</a> Contiene le interfacce delle funzioni utilizzate dal programma per salvare un grafo su file e per caricarlo successivamente. </p>
-</div><h2>Documentazione delle funzioni</h2>
+</div><h2 class="groupheader">Documentazione delle funzioni</h2>
 <a class="anchor" id="abe5192c77f55bc02dfe644658cefbe1b"></a>
 <div class="memitem">
 <div class="memproto">
@@ -125,7 +128,7 @@ Funzioni</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Carica un grafo da file sul grafo passato per riferimento. </p>
-<p>Prova ad aprire il file passato per parametro in lettura e lo interpreta linea per linea. Il primo valore che deve leggere sarà l'id del nodo a cui deve puntare l'arco che esce dal nodo corrente (partendo da 0), mentre il valore successivo sarà il peso di quell'arco. Continua ad aggiungere archi sul nodo corrente finchè non trova il separatore "--&amp;mdash;", quando lo trova passa ad aggiungere archi al nodo successivo.</p>
+<p>Prova ad aprire il file passato per parametro in lettura e lo interpreta linea per linea. Il primo valore che deve leggere sarà l'id del nodo a cui deve puntare l'arco che esce dal nodo corrente (partendo da 0), mentre il valore successivo sarà il peso di quell'arco. Continua ad aggiungere archi sul nodo corrente finchè non trova il separatore "-----", quando lo trova passa ad aggiungere archi al nodo successivo.</p>
 <dl class="params"><dt>Parametri</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>Il riferimento del grafo da caricare </td></tr>
@@ -162,7 +165,7 @@ Funzioni</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Salva un grafo passato per parametro su un file di testo. </p>
-<p>Prova ad aprire il file passato per parametro in scrittura e scorre la lista dei nodi e la lista delle adiacenze per scriverle sul file. La prima linea rappresenterà il nodo a cui punta l'arco, mentre quella successiva rappresenterà il peso dell'arco. Il separatore "--&amp;mdash;" delimita la fine degli archi per il nodo corrente.</p>
+<p>Prova ad aprire il file passato per parametro in scrittura e scorre la lista dei nodi e la lista delle adiacenze per scriverle sul file. La prima linea rappresenterà il nodo a cui punta l'arco, mentre quella successiva rappresenterà il peso dell'arco. Il separatore "-----" delimita la fine degli archi per il nodo corrente.</p>
 <dl class="params"><dt>Parametri</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>Il grafo da scrivere su file </td></tr>
@@ -177,9 +180,9 @@ Funzioni</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generato Ven 11 Lug 2014 03:05:50 per SPaths da &#160;<a href="http://www.doxygen.org/index.html">
+Generato Ven 11 Lug 2014 12:52:19 per SPaths da &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.1.2
+</a> 1.8.7
 </small></address>
 </body>
 </html>

@@ -1,5 +1,5 @@
-\hypertarget{SPaths_8cc}{\section{Riferimenti per il file S\-Paths.\-cc}
-\label{SPaths_8cc}\index{S\-Paths.\-cc@{S\-Paths.\-cc}}
+\hypertarget{SPaths_8cc}{\section{Riferimenti per il file S\+Paths.\+cc}
+\label{SPaths_8cc}\index{S\+Paths.\+cc@{S\+Paths.\+cc}}
 }
 {\ttfamily \#include $<$iostream$>$}\\*
 {\ttfamily \#include $<$cstring$>$}\\*
@@ -9,43 +9,43 @@
 {\ttfamily \#include $<$cstdlib$>$}\\*
 {\ttfamily \#include $<$limits$>$}\\*
 {\ttfamily \#include $<$sstream$>$}\\*
-{\ttfamily \#include $<$glib.\-h$>$}\\*
-{\ttfamily \#include $<$gtk/gtk.\-h$>$}\\*
-{\ttfamily \#include \char`\"{}strutt\-\_\-dati.\-h\char`\"{}}\\*
-{\ttfamily \#include \char`\"{}operazioni\-\_\-grafo.\-h\char`\"{}}\\*
-{\ttfamily \#include \char`\"{}disegna\-\_\-grafo.\-h\char`\"{}}\\*
-{\ttfamily \#include \char`\"{}operazioni\-\_\-file.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$glib.\+h$>$}\\*
+{\ttfamily \#include $<$gtk/gtk.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}strutt\+\_\+dati.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}operazioni\+\_\+grafo.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}disegna\+\_\+grafo.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}operazioni\+\_\+file.\+h\char`\"{}}\\*
 \subsection*{Funzioni}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{SPaths_8cc_ad3754aea40d219de8dc0c6c3be9c00dd}{hide\-\_\-main\-\_\-window} (Gtk\-Button $\ast$button, gpointer user\-\_\-data)
+void \hyperlink{SPaths_8cc_ad3754aea40d219de8dc0c6c3be9c00dd}{hide\+\_\+main\+\_\+window} (Gtk\+Button $\ast$button, gpointer user\+\_\+data)
 \begin{DoxyCompactList}\small\item\em Handler utilizzato per chiudere le dialog a partire dai segnali dei bottoni. \end{DoxyCompactList}\item 
-\hypertarget{SPaths_8cc_af41b4bf0ba2f0884b433dc12b71c1947}{gboolean \hyperlink{SPaths_8cc_af41b4bf0ba2f0884b433dc12b71c1947}{handler\-\_\-delete\-\_\-event} (Gtk\-Widget $\ast$widget, Gdk\-Event $\ast$event, gpointer user\-\_\-data)}\label{SPaths_8cc_af41b4bf0ba2f0884b433dc12b71c1947}
+\hypertarget{SPaths_8cc_af41b4bf0ba2f0884b433dc12b71c1947}{gboolean \hyperlink{SPaths_8cc_af41b4bf0ba2f0884b433dc12b71c1947}{handler\+\_\+delete\+\_\+event} (Gtk\+Widget $\ast$widget, Gdk\+Event $\ast$event, gpointer user\+\_\+data)}\label{SPaths_8cc_af41b4bf0ba2f0884b433dc12b71c1947}
 
 \begin{DoxyCompactList}\small\item\em Handler utilizzato per chiudere il programma. \end{DoxyCompactList}\item 
-void \hyperlink{SPaths_8cc_a32e1b625d9ce324cc8e438ebdd24cfcd}{load\-\_\-handler} (Gtk\-Widget $\ast$widget, gpointer data)
-\begin{DoxyCompactList}\small\item\em Handler utilizzato per caricare il grafo dal file grafo.\-txt. \end{DoxyCompactList}\item 
-void \hyperlink{SPaths_8cc_aa0adc19f3130213cf89e92b1b27e2ecf}{save\-\_\-handler} (Gtk\-Widget $\ast$widget, gpointer data)
-\begin{DoxyCompactList}\small\item\em Handler utilizzato per salvare il grafo corrente sul file grafo.\-txt. \end{DoxyCompactList}\item 
-void \hyperlink{SPaths_8cc_a3568a0940107f26dbf42986a7d4eb05a}{crea\-\_\-grafo\-\_\-handler} (Gtk\-Widget $\ast$widget, gpointer data)
+void \hyperlink{SPaths_8cc_a32e1b625d9ce324cc8e438ebdd24cfcd}{load\+\_\+handler} (Gtk\+Widget $\ast$widget, gpointer data)
+\begin{DoxyCompactList}\small\item\em Handler utilizzato per caricare il grafo dal file grafo.\+txt. \end{DoxyCompactList}\item 
+void \hyperlink{SPaths_8cc_aa0adc19f3130213cf89e92b1b27e2ecf}{save\+\_\+handler} (Gtk\+Widget $\ast$widget, gpointer data)
+\begin{DoxyCompactList}\small\item\em Handler utilizzato per salvare il grafo corrente sul file grafo.\+txt. \end{DoxyCompactList}\item 
+void \hyperlink{SPaths_8cc_a3568a0940107f26dbf42986a7d4eb05a}{crea\+\_\+grafo\+\_\+handler} (Gtk\+Widget $\ast$widget, gpointer data)
 \begin{DoxyCompactList}\small\item\em Handler utilizzato dalla dialog1 per creare un grafo. \end{DoxyCompactList}\item 
-void \hyperlink{SPaths_8cc_a41f84018079a7575e8dd56ad3da66ed1}{disegna\-\_\-percorso\-\_\-handler} (Gtk\-Widget $\ast$widget, gpointer data)
+void \hyperlink{SPaths_8cc_a41f84018079a7575e8dd56ad3da66ed1}{disegna\+\_\+percorso\+\_\+handler} (Gtk\+Widget $\ast$widget, gpointer data)
 \begin{DoxyCompactList}\small\item\em Disegna il percorso richiesto dalla dialog2. \end{DoxyCompactList}\item 
-\hypertarget{SPaths_8cc_a6e98200e1fa483b757d474eeb2ef46ec}{void \hyperlink{SPaths_8cc_a6e98200e1fa483b757d474eeb2ef46ec}{nuovo\-\_\-grafo\-\_\-handler} (Gtk\-Menu\-Item $\ast$menuitem, gpointer user\-\_\-data)}\label{SPaths_8cc_a6e98200e1fa483b757d474eeb2ef46ec}
+\hypertarget{SPaths_8cc_a6e98200e1fa483b757d474eeb2ef46ec}{void \hyperlink{SPaths_8cc_a6e98200e1fa483b757d474eeb2ef46ec}{nuovo\+\_\+grafo\+\_\+handler} (Gtk\+Menu\+Item $\ast$menuitem, gpointer user\+\_\+data)}\label{SPaths_8cc_a6e98200e1fa483b757d474eeb2ef46ec}
 
 \begin{DoxyCompactList}\small\item\em Handler che si occupa di aprire la dialog1 per la creazione di un nuovo grafo. \end{DoxyCompactList}\item 
-\hypertarget{SPaths_8cc_a70733c2585e4cd88e8bc93303574cf57}{void \hyperlink{SPaths_8cc_a70733c2585e4cd88e8bc93303574cf57}{elimina\-\_\-grafo\-\_\-handler} (Gtk\-Menu\-Item $\ast$menuitem, gpointer user\-\_\-data)}\label{SPaths_8cc_a70733c2585e4cd88e8bc93303574cf57}
+\hypertarget{SPaths_8cc_a70733c2585e4cd88e8bc93303574cf57}{void \hyperlink{SPaths_8cc_a70733c2585e4cd88e8bc93303574cf57}{elimina\+\_\+grafo\+\_\+handler} (Gtk\+Menu\+Item $\ast$menuitem, gpointer user\+\_\+data)}\label{SPaths_8cc_a70733c2585e4cd88e8bc93303574cf57}
 
-\begin{DoxyCompactList}\small\item\em Handler che elimina il grafo tramite la funzione \hyperlink{operazioni__grafo_8h_a8397ee9fb34b78d463c7443ed864bb82}{distruggi\-\_\-grafo} e resetta le informazioni sul percorso. Inoltre aggiorna la barra di stato e la textview con le adiacenze del grafo. \end{DoxyCompactList}\item 
-\hypertarget{SPaths_8cc_a69e0aafee823596a8b890b0c54c32cd4}{void \hyperlink{SPaths_8cc_a69e0aafee823596a8b890b0c54c32cd4}{trova\-\_\-percorso\-\_\-handler} (Gtk\-Menu\-Item $\ast$menuitem, gpointer user\-\_\-data)}\label{SPaths_8cc_a69e0aafee823596a8b890b0c54c32cd4}
+\begin{DoxyCompactList}\small\item\em Handler che elimina il grafo tramite la funzione \hyperlink{operazioni__grafo_8h_a8397ee9fb34b78d463c7443ed864bb82}{distruggi\+\_\+grafo} e resetta le informazioni sul percorso. Inoltre aggiorna la barra di stato e la textview con le adiacenze del grafo. \end{DoxyCompactList}\item 
+\hypertarget{SPaths_8cc_a69e0aafee823596a8b890b0c54c32cd4}{void \hyperlink{SPaths_8cc_a69e0aafee823596a8b890b0c54c32cd4}{trova\+\_\+percorso\+\_\+handler} (Gtk\+Menu\+Item $\ast$menuitem, gpointer user\+\_\+data)}\label{SPaths_8cc_a69e0aafee823596a8b890b0c54c32cd4}
 
 \begin{DoxyCompactList}\small\item\em Handler che si occupa di aprire la dialog2 per la ricerca di un percorso. \end{DoxyCompactList}\item 
-\hypertarget{SPaths_8cc_afcd9b58f17a22384822215309c6edf5e}{void \hyperlink{SPaths_8cc_afcd9b58f17a22384822215309c6edf5e}{mostra\-\_\-adiacenze\-\_\-handler} (Gtk\-Menu\-Item $\ast$menuitem, gpointer user\-\_\-data)}\label{SPaths_8cc_afcd9b58f17a22384822215309c6edf5e}
+\hypertarget{SPaths_8cc_afcd9b58f17a22384822215309c6edf5e}{void \hyperlink{SPaths_8cc_afcd9b58f17a22384822215309c6edf5e}{mostra\+\_\+adiacenze\+\_\+handler} (Gtk\+Menu\+Item $\ast$menuitem, gpointer user\+\_\+data)}\label{SPaths_8cc_afcd9b58f17a22384822215309c6edf5e}
 
 \begin{DoxyCompactList}\small\item\em Handler che mostra la dialog contenente le adiacenze del grafo, scritte su una textview. \end{DoxyCompactList}\item 
-gboolean \hyperlink{SPaths_8cc_a4900e3423d5d431b3aaac73a5f9553ff}{draw\-\_\-handler} (Gtk\-Widget $\ast$widget, cairo\-\_\-t $\ast$cr, gpointer data)
-\begin{DoxyCompactList}\small\item\em Handler che si occupa di disegnare sia il grafo che il percorso desiderato sulla Drawing\-Area della finestra principale del programma. \end{DoxyCompactList}\item 
-\hypertarget{SPaths_8cc_a89b16bd893fb653d417b805484c330b4}{void \hyperlink{SPaths_8cc_a89b16bd893fb653d417b805484c330b4}{help\-\_\-handler} (Gtk\-Widget $\ast$widget, gpointer data)}\label{SPaths_8cc_a89b16bd893fb653d417b805484c330b4}
+gboolean \hyperlink{SPaths_8cc_a4900e3423d5d431b3aaac73a5f9553ff}{draw\+\_\+handler} (Gtk\+Widget $\ast$widget, cairo\+\_\+t $\ast$cr, gpointer data)
+\begin{DoxyCompactList}\small\item\em Handler che si occupa di disegnare sia il grafo che il percorso desiderato sulla Drawing\+Area della finestra principale del programma. \end{DoxyCompactList}\item 
+\hypertarget{SPaths_8cc_a89b16bd893fb653d417b805484c330b4}{void \hyperlink{SPaths_8cc_a89b16bd893fb653d417b805484c330b4}{help\+\_\+handler} (Gtk\+Widget $\ast$widget, gpointer data)}\label{SPaths_8cc_a89b16bd893fb653d417b805484c330b4}
 
 \begin{DoxyCompactList}\small\item\em Handler che apre un'istanza di firefox in background per mostrare la documentazione. \end{DoxyCompactList}\item 
 int \hyperlink{SPaths_8cc_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
@@ -56,11 +56,11 @@ int \hyperlink{SPaths_8cc_a0ddf1224851353fc92bfbff6f499fa97}{main} (int argc, ch
 Il file principale contenente la funzione \hyperlink{SPaths_8cc_a0ddf1224851353fc92bfbff6f499fa97}{main} . Il file utilizza 6 variabili globali con internal linkage, che contengono informazioni sul grafo, sul builder utilizzato dall'interfaccia grafica e sul percorso da visualizzare. Inoltre sono presenti tutti gli handler necessari all'interfaccia grafica. 
 
 \subsection{Documentazione delle funzioni}
-\hypertarget{SPaths_8cc_a3568a0940107f26dbf42986a7d4eb05a}{\index{S\-Paths.\-cc@{S\-Paths.\-cc}!crea\-\_\-grafo\-\_\-handler@{crea\-\_\-grafo\-\_\-handler}}
-\index{crea\-\_\-grafo\-\_\-handler@{crea\-\_\-grafo\-\_\-handler}!SPaths.cc@{S\-Paths.\-cc}}
-\subsubsection[{crea\-\_\-grafo\-\_\-handler}]{\setlength{\rightskip}{0pt plus 5cm}void crea\-\_\-grafo\-\_\-handler (
+\hypertarget{SPaths_8cc_a3568a0940107f26dbf42986a7d4eb05a}{\index{S\+Paths.\+cc@{S\+Paths.\+cc}!crea\+\_\+grafo\+\_\+handler@{crea\+\_\+grafo\+\_\+handler}}
+\index{crea\+\_\+grafo\+\_\+handler@{crea\+\_\+grafo\+\_\+handler}!S\+Paths.\+cc@{S\+Paths.\+cc}}
+\subsubsection[{crea\+\_\+grafo\+\_\+handler}]{\setlength{\rightskip}{0pt plus 5cm}void crea\+\_\+grafo\+\_\+handler (
 \begin{DoxyParamCaption}
-\item[{Gtk\-Widget $\ast$}]{widget, }
+\item[{Gtk\+Widget $\ast$}]{widget, }
 \item[{gpointer}]{data}
 \end{DoxyParamCaption}
 )}}\label{SPaths_8cc_a3568a0940107f26dbf42986a7d4eb05a}
@@ -68,11 +68,11 @@ Il file principale contenente la funzione \hyperlink{SPaths_8cc_a0ddf1224851353f
 
 Handler utilizzato dalla dialog1 per creare un grafo. 
 
-Utilizza i valori degli spinbutton e la funzione \hyperlink{operazioni__grafo_8h_a908733e6e5a0dd0c60d6364314ff5336}{genera\-\_\-grafo\-\_\-casuale} per generare un grafo casuale, resetta le variabili globali relative al percorso e richiede l'aggiornamento della Drawing\-Area, della barra di stato e della textview contenente le adiacenze del grafo. \hypertarget{SPaths_8cc_a41f84018079a7575e8dd56ad3da66ed1}{\index{S\-Paths.\-cc@{S\-Paths.\-cc}!disegna\-\_\-percorso\-\_\-handler@{disegna\-\_\-percorso\-\_\-handler}}
-\index{disegna\-\_\-percorso\-\_\-handler@{disegna\-\_\-percorso\-\_\-handler}!SPaths.cc@{S\-Paths.\-cc}}
-\subsubsection[{disegna\-\_\-percorso\-\_\-handler}]{\setlength{\rightskip}{0pt plus 5cm}void disegna\-\_\-percorso\-\_\-handler (
+Utilizza i valori degli spinbutton e la funzione \hyperlink{operazioni__grafo_8h_a908733e6e5a0dd0c60d6364314ff5336}{genera\+\_\+grafo\+\_\+casuale} per generare un grafo casuale, resetta le variabili globali relative al percorso e richiede l'aggiornamento della Drawing\+Area, della barra di stato e della textview contenente le adiacenze del grafo. \hypertarget{SPaths_8cc_a41f84018079a7575e8dd56ad3da66ed1}{\index{S\+Paths.\+cc@{S\+Paths.\+cc}!disegna\+\_\+percorso\+\_\+handler@{disegna\+\_\+percorso\+\_\+handler}}
+\index{disegna\+\_\+percorso\+\_\+handler@{disegna\+\_\+percorso\+\_\+handler}!S\+Paths.\+cc@{S\+Paths.\+cc}}
+\subsubsection[{disegna\+\_\+percorso\+\_\+handler}]{\setlength{\rightskip}{0pt plus 5cm}void disegna\+\_\+percorso\+\_\+handler (
 \begin{DoxyParamCaption}
-\item[{Gtk\-Widget $\ast$}]{widget, }
+\item[{Gtk\+Widget $\ast$}]{widget, }
 \item[{gpointer}]{data}
 \end{DoxyParamCaption}
 )}}\label{SPaths_8cc_a41f84018079a7575e8dd56ad3da66ed1}
@@ -80,52 +80,52 @@ Utilizza i valori degli spinbutton e la funzione \hyperlink{operazioni__grafo_8h
 
 Disegna il percorso richiesto dalla dialog2. 
 
-Prende in ingresso i nodi di partenza e di arrivo grazie agli Spin\-Button della dialog2, e utilizza la funzione \hyperlink{operazioni__grafo_8h_a80eb34ff061292b73546e57d066265b6}{bellman\-\_\-ford} per controllare che esista un percorso tra i due nodi selezionati e che non vi sia un ciclo negativo nel grafo. Successivamente chiede un refresh alla Drawing\-Area, e sarà il \hyperlink{SPaths_8cc_a4900e3423d5d431b3aaac73a5f9553ff}{draw\-\_\-handler} che si occuperà di disegnare il percorso. \hypertarget{SPaths_8cc_a4900e3423d5d431b3aaac73a5f9553ff}{\index{S\-Paths.\-cc@{S\-Paths.\-cc}!draw\-\_\-handler@{draw\-\_\-handler}}
-\index{draw\-\_\-handler@{draw\-\_\-handler}!SPaths.cc@{S\-Paths.\-cc}}
-\subsubsection[{draw\-\_\-handler}]{\setlength{\rightskip}{0pt plus 5cm}gboolean draw\-\_\-handler (
+Prende in ingresso i nodi di partenza e di arrivo grazie agli Spin\+Button della dialog2, e utilizza la funzione \hyperlink{operazioni__grafo_8h_a80eb34ff061292b73546e57d066265b6}{bellman\+\_\+ford} per controllare che esista un percorso tra i due nodi selezionati e che non vi sia un ciclo negativo nel grafo. Successivamente chiede un refresh alla Drawing\+Area, e sarà il \hyperlink{SPaths_8cc_a4900e3423d5d431b3aaac73a5f9553ff}{draw\+\_\+handler} che si occuperà di disegnare il percorso. \hypertarget{SPaths_8cc_a4900e3423d5d431b3aaac73a5f9553ff}{\index{S\+Paths.\+cc@{S\+Paths.\+cc}!draw\+\_\+handler@{draw\+\_\+handler}}
+\index{draw\+\_\+handler@{draw\+\_\+handler}!S\+Paths.\+cc@{S\+Paths.\+cc}}
+\subsubsection[{draw\+\_\+handler}]{\setlength{\rightskip}{0pt plus 5cm}gboolean draw\+\_\+handler (
 \begin{DoxyParamCaption}
-\item[{Gtk\-Widget $\ast$}]{widget, }
-\item[{cairo\-\_\-t $\ast$}]{cr, }
+\item[{Gtk\+Widget $\ast$}]{widget, }
+\item[{cairo\+\_\+t $\ast$}]{cr, }
 \item[{gpointer}]{data}
 \end{DoxyParamCaption}
 )}}\label{SPaths_8cc_a4900e3423d5d431b3aaac73a5f9553ff}
 
 
-Handler che si occupa di disegnare sia il grafo che il percorso desiderato sulla Drawing\-Area della finestra principale del programma. 
+Handler che si occupa di disegnare sia il grafo che il percorso desiderato sulla Drawing\+Area della finestra principale del programma. 
 
-Controlla se il grafo è stato inizializzato e disegna il grafo mediante la funzione \hyperlink{disegna__grafo_8h_aecd26674468f1f34b8029819af767129}{disegna\-\_\-grafo}, inoltre se è stato richiesto di disegnare un percorso, chiama la funzione \hyperlink{disegna__grafo_8h_a831c9d11e2c87e0fab6759fd489b7f16}{disegna\-\_\-percorso} \hypertarget{SPaths_8cc_ad3754aea40d219de8dc0c6c3be9c00dd}{\index{S\-Paths.\-cc@{S\-Paths.\-cc}!hide\-\_\-main\-\_\-window@{hide\-\_\-main\-\_\-window}}
-\index{hide\-\_\-main\-\_\-window@{hide\-\_\-main\-\_\-window}!SPaths.cc@{S\-Paths.\-cc}}
-\subsubsection[{hide\-\_\-main\-\_\-window}]{\setlength{\rightskip}{0pt plus 5cm}void hide\-\_\-main\-\_\-window (
+Controlla se il grafo è stato inizializzato e disegna il grafo mediante la funzione \hyperlink{disegna__grafo_8h_aecd26674468f1f34b8029819af767129}{disegna\+\_\+grafo}, inoltre se è stato richiesto di disegnare un percorso, chiama la funzione \hyperlink{disegna__grafo_8h_a831c9d11e2c87e0fab6759fd489b7f16}{disegna\+\_\+percorso} \hypertarget{SPaths_8cc_ad3754aea40d219de8dc0c6c3be9c00dd}{\index{S\+Paths.\+cc@{S\+Paths.\+cc}!hide\+\_\+main\+\_\+window@{hide\+\_\+main\+\_\+window}}
+\index{hide\+\_\+main\+\_\+window@{hide\+\_\+main\+\_\+window}!S\+Paths.\+cc@{S\+Paths.\+cc}}
+\subsubsection[{hide\+\_\+main\+\_\+window}]{\setlength{\rightskip}{0pt plus 5cm}void hide\+\_\+main\+\_\+window (
 \begin{DoxyParamCaption}
-\item[{Gtk\-Button $\ast$}]{button, }
-\item[{gpointer}]{user\-\_\-data}
+\item[{Gtk\+Button $\ast$}]{button, }
+\item[{gpointer}]{user\+\_\+data}
 \end{DoxyParamCaption}
 )}}\label{SPaths_8cc_ad3754aea40d219de8dc0c6c3be9c00dd}
 
 
 Handler utilizzato per chiudere le dialog a partire dai segnali dei bottoni. 
 
-Viene chiuso il top level del Gtk\-Button passato per parametro.
+Viene chiuso il top level del Gtk\+Button passato per parametro.
 
 
 \begin{DoxyParams}{Parametri}
-{\em button} & Il Gtk\-Button che richiede la chiusura della propria finestra \\
+{\em button} & Il Gtk\+Button che richiede la chiusura della propria finestra \\
 \hline
 \end{DoxyParams}
-\hypertarget{SPaths_8cc_a32e1b625d9ce324cc8e438ebdd24cfcd}{\index{S\-Paths.\-cc@{S\-Paths.\-cc}!load\-\_\-handler@{load\-\_\-handler}}
-\index{load\-\_\-handler@{load\-\_\-handler}!SPaths.cc@{S\-Paths.\-cc}}
-\subsubsection[{load\-\_\-handler}]{\setlength{\rightskip}{0pt plus 5cm}void load\-\_\-handler (
+\hypertarget{SPaths_8cc_a32e1b625d9ce324cc8e438ebdd24cfcd}{\index{S\+Paths.\+cc@{S\+Paths.\+cc}!load\+\_\+handler@{load\+\_\+handler}}
+\index{load\+\_\+handler@{load\+\_\+handler}!S\+Paths.\+cc@{S\+Paths.\+cc}}
+\subsubsection[{load\+\_\+handler}]{\setlength{\rightskip}{0pt plus 5cm}void load\+\_\+handler (
 \begin{DoxyParamCaption}
-\item[{Gtk\-Widget $\ast$}]{widget, }
+\item[{Gtk\+Widget $\ast$}]{widget, }
 \item[{gpointer}]{data}
 \end{DoxyParamCaption}
 )}}\label{SPaths_8cc_a32e1b625d9ce324cc8e438ebdd24cfcd}
 
 
-Handler utilizzato per caricare il grafo dal file grafo.\-txt. 
+Handler utilizzato per caricare il grafo dal file grafo.\+txt. 
 
-Se è stato già creato un grafo, viene distrutto. Viene poi caricato il grafo con la funzione \hyperlink{operazioni__file_8h_abe5192c77f55bc02dfe644658cefbe1b}{carica\-\_\-da\-\_\-file} e vengono aggiornate la Drawing\-Area, la barra di stato e la textview con le informazioni sul grafo. Se non è possibile aprire il file in lettura, viene mostrata una dialog di errore. \hypertarget{SPaths_8cc_a0ddf1224851353fc92bfbff6f499fa97}{\index{S\-Paths.\-cc@{S\-Paths.\-cc}!main@{main}}
-\index{main@{main}!SPaths.cc@{S\-Paths.\-cc}}
+Se è stato già creato un grafo, viene distrutto. Viene poi caricato il grafo con la funzione \hyperlink{operazioni__file_8h_abe5192c77f55bc02dfe644658cefbe1b}{carica\+\_\+da\+\_\+file} e vengono aggiornate la Drawing\+Area, la barra di stato e la textview con le informazioni sul grafo. Se non è possibile aprire il file in lettura, viene mostrata una dialog di errore. \hypertarget{SPaths_8cc_a0ddf1224851353fc92bfbff6f499fa97}{\index{S\+Paths.\+cc@{S\+Paths.\+cc}!main@{main}}
+\index{main@{main}!S\+Paths.\+cc@{S\+Paths.\+cc}}
 \subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
 \begin{DoxyParamCaption}
 \item[{int}]{argc, }
@@ -136,21 +136,21 @@ Se è stato già creato un grafo, viene distrutto. Viene poi caricato il grafo c
 
 Funzione principale del programma. 
 
-Setta i nodi iniziali del grafo a 0 ed inizializza l'interfaccia tramite un builder, utilizzando il file \char`\"{}interfaccia.\-glade\char`\"{} e connettendo i segnali.
+Setta i nodi iniziali del grafo a 0 ed inizializza l'interfaccia tramite un builder, utilizzando il file \char`\"{}interfaccia.\+glade\char`\"{} e connettendo i segnali.
 
 \begin{DoxyReturn}{Restituisce}
 Valore di ritorno del programma 
 \end{DoxyReturn}
-\hypertarget{SPaths_8cc_aa0adc19f3130213cf89e92b1b27e2ecf}{\index{S\-Paths.\-cc@{S\-Paths.\-cc}!save\-\_\-handler@{save\-\_\-handler}}
-\index{save\-\_\-handler@{save\-\_\-handler}!SPaths.cc@{S\-Paths.\-cc}}
-\subsubsection[{save\-\_\-handler}]{\setlength{\rightskip}{0pt plus 5cm}void save\-\_\-handler (
+\hypertarget{SPaths_8cc_aa0adc19f3130213cf89e92b1b27e2ecf}{\index{S\+Paths.\+cc@{S\+Paths.\+cc}!save\+\_\+handler@{save\+\_\+handler}}
+\index{save\+\_\+handler@{save\+\_\+handler}!S\+Paths.\+cc@{S\+Paths.\+cc}}
+\subsubsection[{save\+\_\+handler}]{\setlength{\rightskip}{0pt plus 5cm}void save\+\_\+handler (
 \begin{DoxyParamCaption}
-\item[{Gtk\-Widget $\ast$}]{widget, }
+\item[{Gtk\+Widget $\ast$}]{widget, }
 \item[{gpointer}]{data}
 \end{DoxyParamCaption}
 )}}\label{SPaths_8cc_aa0adc19f3130213cf89e92b1b27e2ecf}
 
 
-Handler utilizzato per salvare il grafo corrente sul file grafo.\-txt. 
+Handler utilizzato per salvare il grafo corrente sul file grafo.\+txt. 
 
-Se il grafo corrente è stato inizializzato (e quindi G.\-num\-\_\-nodi $>$ 0) viene salvato su file grazie alla funzione \hyperlink{operazioni__file_8h_a277879f2f99ec2b12ee47a29f71dac3a}{salva\-\_\-su\-\_\-file}. Se non è possibile aprire il file in scrittura o se il grafo non è stato creato, viene mostrata una dialog di errore. 
+Se il grafo corrente è stato inizializzato (e quindi G.\+num\+\_\+nodi $>$ 0) viene salvato su file grazie alla funzione \hyperlink{operazioni__file_8h_a277879f2f99ec2b12ee47a29f71dac3a}{salva\+\_\+su\+\_\+file}. Se non è possibile aprire il file in scrittura o se il grafo non è stato creato, viene mostrata una dialog di errore. 

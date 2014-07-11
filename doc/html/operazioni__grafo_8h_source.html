@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.7"/>
 <title>SPaths:  File sorgente operazioni_grafo.h</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -30,7 +31,7 @@
 </table>
 </div>
 <!-- end header part -->
-<!-- Generato da Doxygen 1.8.1.2 -->
+<!-- Generato da Doxygen 1.8.7 -->
 <script type="text/javascript">
 var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
 </script>
@@ -89,19 +90,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">using namespace </span>std;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<a class="code" href="structgrafo.html" title="Struttura generale del grafo.">grafo</a> <a class="code" href="operazioni__grafo_8cc.html#a908733e6e5a0dd0c60d6364314ff5336" title="Genera un grafo casuale debolmente connesso.">genera_grafo_casuale</a>(<span class="keywordtype">int</span> nodi, <span class="keywordtype">int</span> min_peso, <span class="keywordtype">int</span> max_peso);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<a class="code" href="structgrafo.html">grafo</a> <a class="code" href="operazioni__grafo_8h.html#a908733e6e5a0dd0c60d6364314ff5336">genera_grafo_casuale</a>(<span class="keywordtype">int</span> nodi, <span class="keywordtype">int</span> min_peso, <span class="keywordtype">int</span> max_peso);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> <a class="code" href="operazioni__grafo_8cc.html#a8397ee9fb34b78d463c7443ed864bb82" title="Distrugge il grafo passato per riferimento, deallocando tutta la memoria da lui precedentemente alloc...">distruggi_grafo</a>(<a class="code" href="structgrafo.html" title="Struttura generale del grafo.">grafo</a> &amp;G);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="keywordtype">void</span> <a class="code" href="operazioni__grafo_8h.html#a8397ee9fb34b78d463c7443ed864bb82">distruggi_grafo</a>(<a class="code" href="structgrafo.html">grafo</a> &amp;G);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keywordtype">void</span> <a class="code" href="operazioni__grafo_8cc.html#a0027c68c84be1299edb1a13e5cdb262e" title="Calcola i cammini minimi di un grafo a partire da un determinato nodo, utilizzando l&#39;algoritmo di Bel...">bellman_ford</a>(<span class="keyword">const</span> <a class="code" href="structgrafo.html" title="Struttura generale del grafo.">grafo</a> &amp;G, <span class="keyword">const</span> <span class="keywordtype">int</span> source, <span class="keywordtype">int</span> *&amp;pred, <span class="keywordtype">int</span> *&amp;dist);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="keywordtype">void</span> <a class="code" href="operazioni__grafo_8h.html#a80eb34ff061292b73546e57d066265b6">bellman_ford</a>(<span class="keyword">const</span> <a class="code" href="structgrafo.html">grafo</a> &amp;G, <span class="keyword">const</span> <span class="keywordtype">int</span> source, <span class="keywordtype">int</span> *&amp;pred, <span class="keywordtype">int</span> *&amp;dist);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">void</span> <a class="code" href="operazioni__grafo_8cc.html#a2aa794f7c0f87868bb5dba549ef4bb5e" title="Stampa le adiacenze del grafo in ingresso su un output stream passato per riferimento.">stampa_adiacenze</a>(<span class="keyword">const</span> <a class="code" href="structgrafo.html" title="Struttura generale del grafo.">grafo</a> &amp;G, ostream &amp;os);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="keywordtype">void</span> <a class="code" href="operazioni__grafo_8h.html#a2aa794f7c0f87868bb5dba549ef4bb5e">stampa_adiacenze</a>(<span class="keyword">const</span> <a class="code" href="structgrafo.html">grafo</a> &amp;G, ostream &amp;os);</div>
+<div class="ttc" id="operazioni__grafo_8h_html_a908733e6e5a0dd0c60d6364314ff5336"><div class="ttname"><a href="operazioni__grafo_8h.html#a908733e6e5a0dd0c60d6364314ff5336">genera_grafo_casuale</a></div><div class="ttdeci">grafo genera_grafo_casuale(int nodi, int min_peso, int max_peso)</div><div class="ttdoc">Genera un grafo casuale debolmente connesso. </div><div class="ttdef"><b>Definition:</b> operazioni_grafo.cc:24</div></div>
+<div class="ttc" id="operazioni__grafo_8h_html_a80eb34ff061292b73546e57d066265b6"><div class="ttname"><a href="operazioni__grafo_8h.html#a80eb34ff061292b73546e57d066265b6">bellman_ford</a></div><div class="ttdeci">void bellman_ford(const grafo &amp;G, const int source, int *&amp;pred, int *&amp;dist)</div><div class="ttdoc">Calcola i cammini minimi di un grafo a partire da un determinato nodo, utilizzando l&#39;algoritmo di Bel...</div><div class="ttdef"><b>Definition:</b> operazioni_grafo.cc:123</div></div>
+<div class="ttc" id="structgrafo_html"><div class="ttname"><a href="structgrafo.html">grafo</a></div><div class="ttdoc">Struttura generale del grafo. </div><div class="ttdef"><b>Definition:</b> strutt_dati.h:74</div></div>
+<div class="ttc" id="operazioni__grafo_8h_html_a2aa794f7c0f87868bb5dba549ef4bb5e"><div class="ttname"><a href="operazioni__grafo_8h.html#a2aa794f7c0f87868bb5dba549ef4bb5e">stampa_adiacenze</a></div><div class="ttdeci">void stampa_adiacenze(const grafo &amp;G, ostream &amp;os)</div><div class="ttdoc">Stampa le adiacenze del grafo in ingresso su un output stream passato per riferimento. </div><div class="ttdef"><b>Definition:</b> operazioni_grafo.cc:190</div></div>
+<div class="ttc" id="operazioni__grafo_8h_html_a8397ee9fb34b78d463c7443ed864bb82"><div class="ttname"><a href="operazioni__grafo_8h.html#a8397ee9fb34b78d463c7443ed864bb82">distruggi_grafo</a></div><div class="ttdeci">void distruggi_grafo(grafo &amp;G)</div><div class="ttdoc">Distrugge il grafo passato per riferimento, deallocando tutta la memoria da lui precedentemente alloc...</div><div class="ttdef"><b>Definition:</b> operazioni_grafo.cc:94</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generato Ven 11 Lug 2014 03:05:50 per SPaths da &#160;<a href="http://www.doxygen.org/index.html">
+Generato Ven 11 Lug 2014 12:52:19 per SPaths da &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
-</a> 1.8.1.2
+</a> 1.8.7
 </small></address>
 </body>
 </html>

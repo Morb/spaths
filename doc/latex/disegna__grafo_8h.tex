@@ -1,32 +1,32 @@
-\hypertarget{disegna__grafo_8h}{\section{Riferimenti per il file disegna\-\_\-grafo.\-h}
-\label{disegna__grafo_8h}\index{disegna\-\_\-grafo.\-h@{disegna\-\_\-grafo.\-h}}
+\hypertarget{disegna__grafo_8h}{\section{Riferimenti per il file disegna\+\_\+grafo.\+h}
+\label{disegna__grafo_8h}\index{disegna\+\_\+grafo.\+h@{disegna\+\_\+grafo.\+h}}
 }
 {\ttfamily \#include $<$iostream$>$}\\*
 {\ttfamily \#include $<$fstream$>$}\\*
 \subsection*{Funzioni}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{disegna__grafo_8h_acff3f87833f795adc027d3dcae8fa52c}{disegna\-\_\-arco} (cairo\-\_\-t $\ast$cr, guint start\-X, guint start\-Y, guint end\-X, guint end\-Y)
+void \hyperlink{disegna__grafo_8h_acff3f87833f795adc027d3dcae8fa52c}{disegna\+\_\+arco} (cairo\+\_\+t $\ast$cr, guint start\+X, guint start\+Y, guint end\+X, guint end\+Y)
 \begin{DoxyCompactList}\small\item\em Disegna un arco all'interno di un cairo context. \end{DoxyCompactList}\item 
-void \hyperlink{disegna__grafo_8h_aecd26674468f1f34b8029819af767129}{disegna\-\_\-grafo} (Gtk\-Widget $\ast$widget, cairo\-\_\-t $\ast$cr, const \hyperlink{structgrafo}{grafo} \&G, bool stampa\-\_\-pesi)
+void \hyperlink{disegna__grafo_8h_aecd26674468f1f34b8029819af767129}{disegna\+\_\+grafo} (Gtk\+Widget $\ast$widget, cairo\+\_\+t $\ast$cr, const \hyperlink{structgrafo}{grafo} \&G, bool stampa\+\_\+pesi)
 \begin{DoxyCompactList}\small\item\em Disegna un grafo all'interno di un cairo context. \end{DoxyCompactList}\item 
-void \hyperlink{disegna__grafo_8h_a831c9d11e2c87e0fab6759fd489b7f16}{disegna\-\_\-percorso} (cairo\-\_\-t $\ast$cr, const \hyperlink{structgrafo}{grafo} \&G, const int sorgente, const int destinazione)
+void \hyperlink{disegna__grafo_8h_a831c9d11e2c87e0fab6759fd489b7f16}{disegna\+\_\+percorso} (cairo\+\_\+t $\ast$cr, const \hyperlink{structgrafo}{grafo} \&G, const int sorgente, const int destinazione)
 \begin{DoxyCompactList}\small\item\em Disegna il percorso più breve per arrivare da un nodo a un altro nodo. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Descrizione dettagliata}
-Questo è l'header file di \hyperlink{disegna__grafo_8cc}{disegna\-\_\-grafo.\-cc} Contiene le interfacce delle funzioni utilizzate dal programma per disegnare grafi all'interno di un cairo context. 
+Questo è l'header file di \hyperlink{disegna__grafo_8cc}{disegna\+\_\+grafo.\+cc} Contiene le interfacce delle funzioni utilizzate dal programma per disegnare grafi all'interno di un cairo context. 
 
 \subsection{Documentazione delle funzioni}
-\hypertarget{disegna__grafo_8h_acff3f87833f795adc027d3dcae8fa52c}{\index{disegna\-\_\-grafo.\-h@{disegna\-\_\-grafo.\-h}!disegna\-\_\-arco@{disegna\-\_\-arco}}
-\index{disegna\-\_\-arco@{disegna\-\_\-arco}!disegna_grafo.h@{disegna\-\_\-grafo.\-h}}
-\subsubsection[{disegna\-\_\-arco}]{\setlength{\rightskip}{0pt plus 5cm}void disegna\-\_\-arco (
+\hypertarget{disegna__grafo_8h_acff3f87833f795adc027d3dcae8fa52c}{\index{disegna\+\_\+grafo.\+h@{disegna\+\_\+grafo.\+h}!disegna\+\_\+arco@{disegna\+\_\+arco}}
+\index{disegna\+\_\+arco@{disegna\+\_\+arco}!disegna\+\_\+grafo.\+h@{disegna\+\_\+grafo.\+h}}
+\subsubsection[{disegna\+\_\+arco}]{\setlength{\rightskip}{0pt plus 5cm}void disegna\+\_\+arco (
 \begin{DoxyParamCaption}
-\item[{cairo\-\_\-t $\ast$}]{cr, }
-\item[{guint}]{start\-X, }
-\item[{guint}]{start\-Y, }
-\item[{guint}]{end\-X, }
-\item[{guint}]{end\-Y}
+\item[{cairo\+\_\+t $\ast$}]{cr, }
+\item[{guint}]{start\+X, }
+\item[{guint}]{start\+Y, }
+\item[{guint}]{end\+X, }
+\item[{guint}]{end\+Y}
 \end{DoxyParamCaption}
 )}}\label{disegna__grafo_8h_acff3f87833f795adc027d3dcae8fa52c}
 
@@ -39,47 +39,47 @@ Questa funzione disegna una linea, partendo dai due punti di partenza e arrivand
 \begin{DoxyParams}{Parametri}
 {\em cr} & Il cairo context su cui disegnare la freccia \\
 \hline
-{\em start\-X} & Le coordinate X del punto di partenza \\
+{\em start\+X} & Le coordinate X del punto di partenza \\
 \hline
-{\em start\-Y} & Le coordinate Y del punto di partenza \\
+{\em start\+Y} & Le coordinate Y del punto di partenza \\
 \hline
-{\em end\-X} & Le coordinate X del punto di arrivo \\
+{\em end\+X} & Le coordinate X del punto di arrivo \\
 \hline
-{\em end\-Y} & Le coordinate Y del punto di arrivo \\
+{\em end\+Y} & Le coordinate Y del punto di arrivo \\
 \hline
 \end{DoxyParams}
-\hypertarget{disegna__grafo_8h_aecd26674468f1f34b8029819af767129}{\index{disegna\-\_\-grafo.\-h@{disegna\-\_\-grafo.\-h}!disegna\-\_\-grafo@{disegna\-\_\-grafo}}
-\index{disegna\-\_\-grafo@{disegna\-\_\-grafo}!disegna_grafo.h@{disegna\-\_\-grafo.\-h}}
-\subsubsection[{disegna\-\_\-grafo}]{\setlength{\rightskip}{0pt plus 5cm}void disegna\-\_\-grafo (
+\hypertarget{disegna__grafo_8h_aecd26674468f1f34b8029819af767129}{\index{disegna\+\_\+grafo.\+h@{disegna\+\_\+grafo.\+h}!disegna\+\_\+grafo@{disegna\+\_\+grafo}}
+\index{disegna\+\_\+grafo@{disegna\+\_\+grafo}!disegna\+\_\+grafo.\+h@{disegna\+\_\+grafo.\+h}}
+\subsubsection[{disegna\+\_\+grafo}]{\setlength{\rightskip}{0pt plus 5cm}void disegna\+\_\+grafo (
 \begin{DoxyParamCaption}
-\item[{Gtk\-Widget $\ast$}]{widget, }
-\item[{cairo\-\_\-t $\ast$}]{cr, }
+\item[{Gtk\+Widget $\ast$}]{widget, }
+\item[{cairo\+\_\+t $\ast$}]{cr, }
 \item[{const {\bf grafo} \&}]{G, }
-\item[{bool}]{stampa\-\_\-pesi}
+\item[{bool}]{stampa\+\_\+pesi}
 \end{DoxyParamCaption}
 )}}\label{disegna__grafo_8h_aecd26674468f1f34b8029819af767129}
 
 
 Disegna un grafo all'interno di un cairo context. 
 
-Calcola l'altezza e la larghezza della Drawing\-Area passata come parametro per avere il raggio del cerchio inscritto all'interno. Questo cerchio non verrà disegnato ma sarà usato come base per disegnare i nodi in modo che siano equidistanti tra di loro e abbiano una posizione univoca, facilmente calcolabile mediante sin() e cos(). Si disegnano poi i nodi sul perimetro del cerchio calcolato in precedenza e gli archi, utilizzando la funzione \hyperlink{disegna__grafo_8h_acff3f87833f795adc027d3dcae8fa52c}{disegna\-\_\-arco} . Se il parametro stampa\-\_\-pesi è T\-R\-U\-E, allora vengono scritti i pesi sopra ogni arco. Per fare in modo che i pesi non si sovrascrivano, il peso viene scritto a 3/4 dell'arco e non a metà. Infine su ogni nodo viene scritto l'id corrispondente.
+Calcola l'altezza e la larghezza della Drawing\+Area passata come parametro per avere il raggio del cerchio inscritto all'interno. Questo cerchio non verrà disegnato ma sarà usato come base per disegnare i nodi in modo che siano equidistanti tra di loro e abbiano una posizione univoca, facilmente calcolabile mediante sin() e cos(). Si disegnano poi i nodi sul perimetro del cerchio calcolato in precedenza e gli archi, utilizzando la funzione \hyperlink{disegna__grafo_8h_acff3f87833f795adc027d3dcae8fa52c}{disegna\+\_\+arco} . Se il parametro stampa\+\_\+pesi è T\+R\+U\+E, allora vengono scritti i pesi sopra ogni arco. Per fare in modo che i pesi non si sovrascrivano, il peso viene scritto a 3/4 dell'arco e non a metà. Infine su ogni nodo viene scritto l'id corrispondente.
 
 
 \begin{DoxyParams}{Parametri}
-{\em widget} & Il widget sul quale disegnare il grafo, che sarà di tipo Drawing\-Area \\
+{\em widget} & Il widget sul quale disegnare il grafo, che sarà di tipo Drawing\+Area \\
 \hline
 {\em cr} & Il cairo context su cui disegnare il grafo \\
 \hline
 {\em G} & Il grafo da disegnare \\
 \hline
-{\em stampa\-\_\-pesi} & Booleano settato a T\-R\-U\-E se devono essere scritti i pesi sugli archi \\
+{\em stampa\+\_\+pesi} & Booleano settato a T\+R\+U\+E se devono essere scritti i pesi sugli archi \\
 \hline
 \end{DoxyParams}
-\hypertarget{disegna__grafo_8h_a831c9d11e2c87e0fab6759fd489b7f16}{\index{disegna\-\_\-grafo.\-h@{disegna\-\_\-grafo.\-h}!disegna\-\_\-percorso@{disegna\-\_\-percorso}}
-\index{disegna\-\_\-percorso@{disegna\-\_\-percorso}!disegna_grafo.h@{disegna\-\_\-grafo.\-h}}
-\subsubsection[{disegna\-\_\-percorso}]{\setlength{\rightskip}{0pt plus 5cm}void disegna\-\_\-percorso (
+\hypertarget{disegna__grafo_8h_a831c9d11e2c87e0fab6759fd489b7f16}{\index{disegna\+\_\+grafo.\+h@{disegna\+\_\+grafo.\+h}!disegna\+\_\+percorso@{disegna\+\_\+percorso}}
+\index{disegna\+\_\+percorso@{disegna\+\_\+percorso}!disegna\+\_\+grafo.\+h@{disegna\+\_\+grafo.\+h}}
+\subsubsection[{disegna\+\_\+percorso}]{\setlength{\rightskip}{0pt plus 5cm}void disegna\+\_\+percorso (
 \begin{DoxyParamCaption}
-\item[{cairo\-\_\-t $\ast$}]{cr, }
+\item[{cairo\+\_\+t $\ast$}]{cr, }
 \item[{const {\bf grafo} \&}]{G, }
 \item[{const int}]{sorgente, }
 \item[{const int}]{destinazione}
@@ -89,7 +89,7 @@ Calcola l'altezza e la larghezza della Drawing\-Area passata come parametro per 
 
 Disegna il percorso più breve per arrivare da un nodo a un altro nodo. 
 
-Utilizza la funzione \hyperlink{operazioni__grafo_8h_a80eb34ff061292b73546e57d066265b6}{bellman\-\_\-ford} per trovare i cammini minimi a partire dal nodo sorgente, specificato come parametro. Dopodichè verrà chiamata la funzione \hyperlink{disegna__grafo_8h_acff3f87833f795adc027d3dcae8fa52c}{disegna\-\_\-arco} per tracciare gli archi, partendo dal nodo di destinazione finchè non si è arrivati dal nodo di partenza.
+Utilizza la funzione \hyperlink{operazioni__grafo_8h_a80eb34ff061292b73546e57d066265b6}{bellman\+\_\+ford} per trovare i cammini minimi a partire dal nodo sorgente, specificato come parametro. Dopodichè verrà chiamata la funzione \hyperlink{disegna__grafo_8h_acff3f87833f795adc027d3dcae8fa52c}{disegna\+\_\+arco} per tracciare gli archi, partendo dal nodo di destinazione finchè non si è arrivati dal nodo di partenza.
 
 
 \begin{DoxyParams}{Parametri}
