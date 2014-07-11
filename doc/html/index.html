@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>SPaths: SPaths</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">SPaths
+   </div>
+   <div id="projectbrief">Calcolo dei cammini minimi fra grafi generati casualmente</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li class="current"><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Classi</span></a></li>
+      <li><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Definizioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pagine</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">SPaths </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><p>Questo programma genera grafi casuali orientati debolmente connessi, li disegna tramite interfaccia grafica e visualizza il percorso più breve tra 2 nodi di esso, se esiste.<br/>
+</p>
+<p>Si invoca da linea di comando senza alcun parametro addizionale:<br/>
+</p>
+<ul>
+<li><p class="startli"><code></code>./SPaths</p>
+<p class="startli">Il grafo orientato è implementato mediante liste di adiacenza.<br/>
+ La ricerca del percorso più breve è effettuata con l'algoritmo di Bellman-Ford (vedi <a class="el" href="operazioni__grafo_8h.html#a80eb34ff061292b73546e57d066265b6" title="Calcola i cammini minimi di un grafo a partire da un determinato nodo, utilizzando l&#39;algoritmo di Bel...">bellman_ford</a>). </p>
+<dl class="section user"><dt>Moduli</dt><dd><ul>
+<li><b><a class="el" href="SPaths_8cc.html">SPaths.cc</a>:</b> <br/>
+ contiene la funzione main, necessaria per l'avvio del programma e gli handler per l'interfaccia grafica. <br/>
+ Utilizza <code><a class="el" href="strutt__dati_8h.html">strutt_dati.h</a></code>, <code><a class="el" href="operazioni__grafo_8h.html">operazioni_grafo.h</a></code>, <code><a class="el" href="disegna__grafo_8h.html">disegna_grafo.h</a></code>, <code><a class="el" href="operazioni__file_8h.html">operazioni_file.h</a></code> </li>
+<li><b><a class="el" href="strutt__dati_8h.html">strutt_dati.h</a>:</b> <br/>
+ contiene le strutture dati utilizzate da tutti i moduli.</li>
+<li><b><a class="el" href="operazioni__grafo_8cc.html">operazioni_grafo.cc</a>:</b> <br/>
+ contiene le funzioni utilizzate dal programma per lavorare su tipi di dato grafo. <br/>
+ Utilizza <code><a class="el" href="strutt__dati_8h.html">strutt_dati.h</a></code> e <code><a class="el" href="operazioni__grafo_8h.html">operazioni_grafo.h</a></code> </li>
+<li><b><a class="el" href="disegna__grafo_8cc.html">disegna_grafo.cc</a>:</b> <br/>
+ contiene le funzioni utilizzate dall'interfaccia grafica per disegnare il grafo ed i percorsi minimi. <br/>
+ Utilizza <code><a class="el" href="strutt__dati_8h.html">strutt_dati.h</a></code>, <code><a class="el" href="disegna__grafo_8h.html">disegna_grafo.h</a></code> e <code><a class="el" href="operazioni__grafo_8h.html">operazioni_grafo.h</a></code> </li>
+<li><b><a class="el" href="operazioni__file_8cc.html">operazioni_file.cc</a>:</b> <br/>
+ contiene le funzioni utilizzate per salvare il grafo corrente su file e per caricarlo successivamente. <br/>
+ Utilizza <code><a class="el" href="strutt__dati_8h.html">strutt_dati.h</a></code> </li>
+</ul>
+</dd></dl>
+<dl class="section see"><dt>Si veda anche</dt><dd><a class="el" href="strutt__dati_8h.html">strutt_dati.h</a> Per vedere come è stato implementato il <a class="el" href="structgrafo.html" title="Struttura generale del grafo.">grafo</a> </dd></dl>
+<dl class="section author"><dt>Autore</dt><dd>Federico Terzi </dd></dl>
+<dl class="section version"><dt>Versione</dt><dd>1.0 </dd></dl>
+</li>
+</ul>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Ven 11 Lug 2014 03:05:50 per SPaths da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.1.2
+</small></address>
+</body>
+</html>

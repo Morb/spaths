@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<title>SPaths:  File sorgente strutt_dati.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">SPaths
+   </div>
+   <div id="projectbrief">Calcolo dei cammini minimi fra grafi generati casualmente</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.1.2 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="annotated.html"><span>Classi</span></a></li>
+      <li class="current"><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Elenco&#160;dei&#160;file</span></a></li>
+      <li><a href="globals.html"><span>Elementi&#160;dei&#160;file</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funzioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Definizioni</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Pagine</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">strutt_dati.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="strutt__dati_8h.html">Vai alla documentazione di questo file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;string.h&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;glib.h&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;cassert&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#ifdef DEBUG_MODE</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span> <span class="keyword">extern</span> <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> MASK ;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor"> #define DBG(A, B) {if ((A) &amp; MASK) {B; } }</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span><span class="preprocessor">  #define NDEBUG</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor"></span><span class="preprocessor">  #define DBG(A,B)</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="code" href="strutt__dati_8h.html#a330bea9b36f638349fec0d06c8ab4c38">   27</a></span>&#160;<span class="preprocessor">#define  D1(a)   DBG(1, a) </span></div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="code" href="strutt__dati_8h.html#a975397c373ae2a9dc28d0297fa18da56">   29</a></span>&#160;<span class="preprocessor">#define  D2(a)   DBG(2, a) </span></div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="code" href="strutt__dati_8h.html#a529dfc3dc7bd423bdf6d912456f4c075">   31</a></span>&#160;<span class="preprocessor">#define  D4(a)   DBG(4, a) </span></div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="code" href="strutt__dati_8h.html#a375c4cd325ac0c6ef77da753d0484680">   33</a></span>&#160;<span class="preprocessor">#define  D8(a)   DBG(8, a) </span></div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="code" href="structnodo.html">   43</a></span>&#160;<span class="preprocessor">struct nodo {</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="code" href="structnodo.html#ab666271a6c7a11224dff5d682f5b0473">   44</a></span>&#160;<span class="preprocessor"></span>        <span class="keywordtype">int</span> <a class="code" href="structnodo.html#ab666271a6c7a11224dff5d682f5b0473">id</a>; </div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="code" href="structnodo.html#a94b362e3d649f0289bbd3200d127e269">   45</a></span>&#160;        GList *<a class="code" href="structnodo.html#a94b362e3d649f0289bbd3200d127e269">lista_adiacenze</a>; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;};</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00054"></a><span class="lineno"><a class="code" href="structarco.html">   54</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structarco.html" title="Struttura di ogni arco.">arco</a> {</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="code" href="structarco.html#ad9b7c14e1afd37cc4c416267859c0fd7">   55</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structarco.html#ad9b7c14e1afd37cc4c416267859c0fd7">id_nodo_adj</a>; </div>
+<div class="line"><a name="l00056"></a><span class="lineno"><a class="code" href="structarco.html#a3d3e3a63742e8fbaf47a728e066eca98">   56</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structarco.html#a3d3e3a63742e8fbaf47a728e066eca98">peso</a>; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;};</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="code" href="structgrafo.html">   66</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structgrafo.html" title="Struttura generale del grafo.">grafo</a> {</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="code" href="structgrafo.html#ab05142298c5857ab9e14b52f4b3820e1">   67</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="structgrafo.html#ab05142298c5857ab9e14b52f4b3820e1">num_nodi</a>; </div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="code" href="structgrafo.html#a95906e11ba3224fa9fed6b8b2882e576">   68</a></span>&#160;        GList *<a class="code" href="structgrafo.html#a95906e11ba3224fa9fed6b8b2882e576">lista_nodi</a>; </div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;};</div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generato Ven 11 Lug 2014 03:05:50 per SPaths da &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.1.2
+</small></address>
+</body>
+</html>
