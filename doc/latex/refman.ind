@@ -1,0 +1,25 @@
+\begin{theindex}
+
+  \item {arco}, \hyperpage{7}
+    \subitem {peso}, \hyperpage{7}
+
+  \indexspace
+
+  \item {grafo}, \hyperpage{7}
+
+  \indexspace
+
+  \item {id}
+    \subitem {nodo}, \hyperpage{8}
+
+  \indexspace
+
+  \item {nodo}, \hyperpage{8}
+    \subitem {id}, \hyperpage{8}
+
+  \indexspace
+
+  \item {peso}
+    \subitem {arco}, \hyperpage{7}
+
+\end{theindex}
