@@ -7,6 +7,7 @@
 #include <fstream>
 #include <string>
 #include <cstdlib>
+#include <cassert>
 
 #include <glib.h>
 #include "strutt_dati.h"
@@ -14,6 +15,10 @@
 using namespace std;
 
 bool salva_su_file (const grafo &G, const char nomefile[]) {
+
+	assert(G.num_nodi > 0);
+	assert(nomefile != NULL);
+
 	D4(cout << "Inizio salvataggio su file.." << endl)
 
 	ofstream file(nomefile);
@@ -46,6 +51,8 @@ bool salva_su_file (const grafo &G, const char nomefile[]) {
 
 bool carica_da_file(grafo &G, const char nomefile[]) {
 
+	assert(nomefile != NULL);
+	
 	D4(cout << "Inizio il caricamento da file.." << endl)
 
 	string linea;
