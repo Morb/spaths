@@ -161,7 +161,22 @@ extern "C" gboolean handler_delete_event(GtkWidget *widget, GdkEvent  *event,
 
     D1(cout << "Richiesta chiusura del programma..." << endl)
 
+    distruggi_grafo(G);
     gtk_main_quit();
+    return TRUE;
+}
+
+/**
+ * @brief Handler utilizzato dal dialog per impedire di distruggersi tramite
+ * pressione del tasto Esc
+ */
+extern "C" gboolean handler_dialog_delete_event(GtkWidget *widget, 
+    GdkEvent  *event, gpointer user_data) {
+
+    D1(cout << "Impedisco la distruzione della dialog..." << endl)
+
+    gtk_widget_hide(gtk_widget_get_toplevel(GTK_WIDGET(widget)));
+    
     return TRUE;
 }
 

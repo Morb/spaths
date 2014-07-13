@@ -37,6 +37,7 @@
     <property name="default_width">350</property>
     <property name="default_height">200</property>
     <property name="type_hint">dialog</property>
+    <signal name="delete-event" handler="handler_dialog_delete_event" swapped="no"/>
     <child internal-child="vbox">
       <object class="GtkBox" id="dialog-vbox1">
         <property name="can_focus">False</property>
@@ -213,6 +214,7 @@
     <property name="border_width">5</property>
     <property name="title" translatable="yes">Trova Percorso</property>
     <property name="type_hint">dialog</property>
+    <signal name="delete-event" handler="handler_dialog_delete_event" swapped="no"/>
     <child internal-child="vbox">
       <object class="GtkBox" id="dialog-vbox2">
         <property name="can_focus">False</property>
@@ -342,6 +344,7 @@
     <property name="border_width">5</property>
     <property name="title" translatable="yes">Dettagli del grafo</property>
     <property name="type_hint">dialog</property>
+    <signal name="delete-event" handler="handler_dialog_delete_event" swapped="no"/>
     <child internal-child="vbox">
       <object class="GtkBox" id="dialog-vbox4">
         <property name="can_focus">False</property>
@@ -408,6 +411,7 @@
     <property name="border_width">5</property>
     <property name="title" translatable="yes">Errore</property>
     <property name="type_hint">dialog</property>
+    <signal name="delete-event" handler="handler_dialog_delete_event" swapped="no"/>
     <child internal-child="vbox">
       <object class="GtkBox" id="dialog-vbox3">
         <property name="can_focus">False</property>
