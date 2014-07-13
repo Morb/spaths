@@ -1,37 +1,39 @@
-Questo programma genera grafi casuali orientati debolmente connessi, li disegna tramite interfaccia grafica e visualizza il percorso più breve tra 2 nodi di esso, se esiste.~\newline
- Si invoca da linea di comando senza alcun parametro addizionale\+:~\newline
+Questo programma genera grafi casuali orientati debolmente connessi, li disegna tramite interfaccia grafica e visualizza il percorso più breve tra 2 nodi di esso, se esiste.\par
+
+
+Si invoca da linea di comando senza alcun parametro addizionale\-:\par
 
 \begin{DoxyItemize}
-\item {\ttfamily }./\+S\+Paths
+\item {\ttfamily }./\-S\-Paths
 
-Il grafo orientato è implementato mediante liste di adiacenza.~\newline
- La ricerca del percorso più breve è effettuata con l'algoritmo di Bellman-\/\+Ford (vedi \hyperlink{operazioni__grafo_8h_a80eb34ff061292b73546e57d066265b6}{bellman\+\_\+ford}). \begin{DoxyParagraph}{Moduli}
+Il grafo orientato è implementato mediante liste di adiacenza.\par
+ La ricerca del percorso più breve è effettuata con l'algoritmo di Bellman-\/\-Ford (vedi \hyperlink{operazioni__grafo_8h_a80eb34ff061292b73546e57d066265b6}{bellman\-\_\-ford}). \begin{DoxyParagraph}{Moduli}
 
 \begin{DoxyItemize}
-\item {\bfseries \hyperlink{SPaths_8cc}{S\+Paths.\+cc}\+:} ~\newline
- contiene la funzione main, necessaria per l'avvio del programma e gli handler per l'interfaccia grafica. ~\newline
- Utilizza {\ttfamily \hyperlink{strutt__dati_8h}{strutt\+\_\+dati.\+h}}, {\ttfamily \hyperlink{operazioni__grafo_8h}{operazioni\+\_\+grafo.\+h}}, {\ttfamily \hyperlink{disegna__grafo_8h}{disegna\+\_\+grafo.\+h}}, {\ttfamily \hyperlink{operazioni__file_8h}{operazioni\+\_\+file.\+h}} 
-\item {\bfseries \hyperlink{strutt__dati_8h}{strutt\+\_\+dati.\+h}\+:} ~\newline
+\item {\bfseries \hyperlink{SPaths_8cc}{S\-Paths.\-cc}\-:} \par
+ contiene la funzione main, necessaria per l'avvio del programma e gli handler per l'interfaccia grafica. \par
+ Utilizza {\ttfamily \hyperlink{strutt__dati_8h}{strutt\-\_\-dati.\-h}}, {\ttfamily \hyperlink{operazioni__grafo_8h}{operazioni\-\_\-grafo.\-h}}, {\ttfamily \hyperlink{disegna__grafo_8h}{disegna\-\_\-grafo.\-h}}, {\ttfamily \hyperlink{operazioni__file_8h}{operazioni\-\_\-file.\-h}} 
+\item {\bfseries \hyperlink{strutt__dati_8h}{strutt\-\_\-dati.\-h}\-:} \par
  contiene le strutture dati utilizzate da tutti i moduli.
-\item {\bfseries \hyperlink{operazioni__grafo_8cc}{operazioni\+\_\+grafo.\+cc}\+:} ~\newline
- contiene le funzioni utilizzate dal programma per lavorare su tipi di dato grafo. ~\newline
- Utilizza {\ttfamily \hyperlink{strutt__dati_8h}{strutt\+\_\+dati.\+h}} e {\ttfamily \hyperlink{operazioni__grafo_8h}{operazioni\+\_\+grafo.\+h}} 
-\item {\bfseries \hyperlink{disegna__grafo_8cc}{disegna\+\_\+grafo.\+cc}\+:} ~\newline
- contiene le funzioni utilizzate dall'interfaccia grafica per disegnare il grafo ed i percorsi minimi. ~\newline
- Utilizza {\ttfamily \hyperlink{strutt__dati_8h}{strutt\+\_\+dati.\+h}}, {\ttfamily \hyperlink{disegna__grafo_8h}{disegna\+\_\+grafo.\+h}} e {\ttfamily \hyperlink{operazioni__grafo_8h}{operazioni\+\_\+grafo.\+h}} 
-\item {\bfseries \hyperlink{operazioni__file_8cc}{operazioni\+\_\+file.\+cc}\+:} ~\newline
- contiene le funzioni utilizzate per salvare il grafo corrente su file e per caricarlo successivamente. ~\newline
- Utilizza {\ttfamily \hyperlink{strutt__dati_8h}{strutt\+\_\+dati.\+h}} 
+\item {\bfseries \hyperlink{operazioni__grafo_8cc}{operazioni\-\_\-grafo.\-cc}\-:} \par
+ contiene le funzioni utilizzate dal programma per lavorare su tipi di dato grafo. \par
+ Utilizza {\ttfamily \hyperlink{strutt__dati_8h}{strutt\-\_\-dati.\-h}} e {\ttfamily \hyperlink{operazioni__grafo_8h}{operazioni\-\_\-grafo.\-h}} 
+\item {\bfseries \hyperlink{disegna__grafo_8cc}{disegna\-\_\-grafo.\-cc}\-:} \par
+ contiene le funzioni utilizzate dall'interfaccia grafica per disegnare il grafo ed i percorsi minimi. \par
+ Utilizza {\ttfamily \hyperlink{strutt__dati_8h}{strutt\-\_\-dati.\-h}}, {\ttfamily \hyperlink{disegna__grafo_8h}{disegna\-\_\-grafo.\-h}} e {\ttfamily \hyperlink{operazioni__grafo_8h}{operazioni\-\_\-grafo.\-h}} 
+\item {\bfseries \hyperlink{operazioni__file_8cc}{operazioni\-\_\-file.\-cc}\-:} \par
+ contiene le funzioni utilizzate per salvare il grafo corrente su file e per caricarlo successivamente. \par
+ Utilizza {\ttfamily \hyperlink{strutt__dati_8h}{strutt\-\_\-dati.\-h}} 
 \end{DoxyItemize}
 \end{DoxyParagraph}
 \begin{DoxySeeAlso}{Si veda anche}
-\hyperlink{strutt__dati_8h}{strutt\+\_\+dati.\+h} Per vedere come è stato implementato il \hyperlink{structgrafo}{grafo} 
+\hyperlink{strutt__dati_8h}{strutt\-\_\-dati.\-h} Per vedere come è stato implementato il \hyperlink{structgrafo}{grafo} 
 \end{DoxySeeAlso}
 \begin{DoxyAuthor}{Autore}
 Federico Terzi 
 \end{DoxyAuthor}
 \begin{DoxyVersion}{Versione}
-1.\+0 
+1.\-0 
 \end{DoxyVersion}
 
 \end{DoxyItemize}

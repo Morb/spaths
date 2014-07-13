@@ -1,24 +1,24 @@
-\hypertarget{operazioni__file_8h}{\section{Riferimenti per il file operazioni\+\_\+file.\+h}
-\label{operazioni__file_8h}\index{operazioni\+\_\+file.\+h@{operazioni\+\_\+file.\+h}}
+\hypertarget{operazioni__file_8h}{\section{Riferimenti per il file operazioni\-\_\-file.\-h}
+\label{operazioni__file_8h}\index{operazioni\-\_\-file.\-h@{operazioni\-\_\-file.\-h}}
 }
 {\ttfamily \#include $<$iostream$>$}\\*
 {\ttfamily \#include $<$fstream$>$}\\*
 \subsection*{Funzioni}
 \begin{DoxyCompactItemize}
 \item 
-bool \hyperlink{operazioni__file_8h_a277879f2f99ec2b12ee47a29f71dac3a}{salva\+\_\+su\+\_\+file} (const \hyperlink{structgrafo}{grafo} \&G, const char nomefile\mbox{[}$\,$\mbox{]})
+bool \hyperlink{operazioni__file_8h_a277879f2f99ec2b12ee47a29f71dac3a}{salva\-\_\-su\-\_\-file} (const \hyperlink{structgrafo}{grafo} \&G, const char nomefile\mbox{[}$\,$\mbox{]})
 \begin{DoxyCompactList}\small\item\em Salva un grafo passato per parametro su un file di testo. \end{DoxyCompactList}\item 
-bool \hyperlink{operazioni__file_8h_abe5192c77f55bc02dfe644658cefbe1b}{carica\+\_\+da\+\_\+file} (\hyperlink{structgrafo}{grafo} \&G, const char nomefile\mbox{[}$\,$\mbox{]})
+bool \hyperlink{operazioni__file_8h_abe5192c77f55bc02dfe644658cefbe1b}{carica\-\_\-da\-\_\-file} (\hyperlink{structgrafo}{grafo} \&G, const char nomefile\mbox{[}$\,$\mbox{]})
 \begin{DoxyCompactList}\small\item\em Carica un grafo da file sul grafo passato per riferimento. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Descrizione dettagliata}
-Questo è l'header file di \hyperlink{operazioni__file_8cc}{operazioni\+\_\+file.\+cc} Contiene le interfacce delle funzioni utilizzate dal programma per salvare un grafo su file e per caricarlo successivamente. 
+Questo è l'header file di \hyperlink{operazioni__file_8cc}{operazioni\-\_\-file.\-cc} Contiene le interfacce delle funzioni utilizzate dal programma per salvare un grafo su file e per caricarlo successivamente. 
 
 \subsection{Documentazione delle funzioni}
-\hypertarget{operazioni__file_8h_abe5192c77f55bc02dfe644658cefbe1b}{\index{operazioni\+\_\+file.\+h@{operazioni\+\_\+file.\+h}!carica\+\_\+da\+\_\+file@{carica\+\_\+da\+\_\+file}}
-\index{carica\+\_\+da\+\_\+file@{carica\+\_\+da\+\_\+file}!operazioni\+\_\+file.\+h@{operazioni\+\_\+file.\+h}}
-\subsubsection[{carica\+\_\+da\+\_\+file}]{\setlength{\rightskip}{0pt plus 5cm}bool carica\+\_\+da\+\_\+file (
+\hypertarget{operazioni__file_8h_abe5192c77f55bc02dfe644658cefbe1b}{\index{operazioni\-\_\-file.\-h@{operazioni\-\_\-file.\-h}!carica\-\_\-da\-\_\-file@{carica\-\_\-da\-\_\-file}}
+\index{carica\-\_\-da\-\_\-file@{carica\-\_\-da\-\_\-file}!operazioni_file.h@{operazioni\-\_\-file.\-h}}
+\subsubsection[{carica\-\_\-da\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}bool carica\-\_\-da\-\_\-file (
 \begin{DoxyParamCaption}
 \item[{{\bf grafo} \&}]{G, }
 \item[{const char}]{nomefile\mbox{[}$\,$\mbox{]}}
@@ -28,7 +28,7 @@ Questo è l'header file di \hyperlink{operazioni__file_8cc}{operazioni\+\_\+file
 
 Carica un grafo da file sul grafo passato per riferimento. 
 
-Prova ad aprire il file passato per parametro in lettura e lo interpreta linea per linea. Il primo valore che deve leggere sarà l'id del nodo a cui deve puntare l'arco che esce dal nodo corrente (partendo da 0), mentre il valore successivo sarà il peso di quell'arco. Continua ad aggiungere archi sul nodo corrente finchè non trova il separatore \char`\"{}-\/-\/-\/-\/-\/\char`\"{}, quando lo trova passa ad aggiungere archi al nodo successivo.
+Prova ad aprire il file passato per parametro in lettura e lo interpreta linea per linea. Il primo valore che deve leggere sarà l'id del nodo a cui deve puntare l'arco che esce dal nodo corrente (partendo da 0), mentre il valore successivo sarà il peso di quell'arco. Continua ad aggiungere archi sul nodo corrente finchè non trova il separatore \char`\"{}-\/-\/\&mdash;\char`\"{}, quando lo trova passa ad aggiungere archi al nodo successivo.
 
 
 \begin{DoxyParams}{Parametri}
@@ -38,11 +38,11 @@ Prova ad aprire il file passato per parametro in lettura e lo interpreta linea p
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Restituisce}
-T\+R\+U\+E se l'operazione è andata a buon fine, F\+A\+L\+S\+E altrimenti 
+T\-R\-U\-E se l'operazione è andata a buon fine, F\-A\-L\-S\-E altrimenti 
 \end{DoxyReturn}
-\hypertarget{operazioni__file_8h_a277879f2f99ec2b12ee47a29f71dac3a}{\index{operazioni\+\_\+file.\+h@{operazioni\+\_\+file.\+h}!salva\+\_\+su\+\_\+file@{salva\+\_\+su\+\_\+file}}
-\index{salva\+\_\+su\+\_\+file@{salva\+\_\+su\+\_\+file}!operazioni\+\_\+file.\+h@{operazioni\+\_\+file.\+h}}
-\subsubsection[{salva\+\_\+su\+\_\+file}]{\setlength{\rightskip}{0pt plus 5cm}bool salva\+\_\+su\+\_\+file (
+\hypertarget{operazioni__file_8h_a277879f2f99ec2b12ee47a29f71dac3a}{\index{operazioni\-\_\-file.\-h@{operazioni\-\_\-file.\-h}!salva\-\_\-su\-\_\-file@{salva\-\_\-su\-\_\-file}}
+\index{salva\-\_\-su\-\_\-file@{salva\-\_\-su\-\_\-file}!operazioni_file.h@{operazioni\-\_\-file.\-h}}
+\subsubsection[{salva\-\_\-su\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}bool salva\-\_\-su\-\_\-file (
 \begin{DoxyParamCaption}
 \item[{const {\bf grafo} \&}]{G, }
 \item[{const char}]{nomefile\mbox{[}$\,$\mbox{]}}
@@ -52,7 +52,7 @@ T\+R\+U\+E se l'operazione è andata a buon fine, F\+A\+L\+S\+E altrimenti
 
 Salva un grafo passato per parametro su un file di testo. 
 
-Prova ad aprire il file passato per parametro in scrittura e scorre la lista dei nodi e la lista delle adiacenze per scriverle sul file. La prima linea rappresenterà il nodo a cui punta l'arco, mentre quella successiva rappresenterà il peso dell'arco. Il separatore \char`\"{}-\/-\/-\/-\/-\/\char`\"{} delimita la fine degli archi per il nodo corrente.
+Prova ad aprire il file passato per parametro in scrittura e scorre la lista dei nodi e la lista delle adiacenze per scriverle sul file. La prima linea rappresenterà il nodo a cui punta l'arco, mentre quella successiva rappresenterà il peso dell'arco. Il separatore \char`\"{}-\/-\/\&mdash;\char`\"{} delimita la fine degli archi per il nodo corrente.
 
 
 \begin{DoxyParams}{Parametri}
@@ -62,5 +62,5 @@ Prova ad aprire il file passato per parametro in scrittura e scorre la lista dei
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Restituisce}
-T\+R\+U\+E se l'operazione è andata a buon fine, F\+A\+L\+S\+E altrimenti 
+T\-R\-U\-E se l'operazione è andata a buon fine, F\-A\-L\-S\-E altrimenti 
 \end{DoxyReturn}

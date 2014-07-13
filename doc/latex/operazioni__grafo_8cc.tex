@@ -1,5 +1,5 @@
-\hypertarget{operazioni__grafo_8cc}{\section{Riferimenti per il file operazioni\+\_\+grafo.\+cc}
-\label{operazioni__grafo_8cc}\index{operazioni\+\_\+grafo.\+cc@{operazioni\+\_\+grafo.\+cc}}
+\hypertarget{operazioni__grafo_8cc}{\section{Riferimenti per il file operazioni\-\_\-grafo.\-cc}
+\label{operazioni__grafo_8cc}\index{operazioni\-\_\-grafo.\-cc@{operazioni\-\_\-grafo.\-cc}}
 }
 {\ttfamily \#include $<$iostream$>$}\\*
 {\ttfamily \#include $<$cstring$>$}\\*
@@ -10,30 +10,30 @@
 {\ttfamily \#include $<$limits$>$}\\*
 {\ttfamily \#include $<$sstream$>$}\\*
 {\ttfamily \#include $<$fstream$>$}\\*
-{\ttfamily \#include $<$glib.\+h$>$}\\*
-{\ttfamily \#include $<$gtk/gtk.\+h$>$}\\*
-{\ttfamily \#include \char`\"{}strutt\+\_\+dati.\+h\char`\"{}}\\*
-{\ttfamily \#include \char`\"{}operazioni\+\_\+grafo.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$glib.\-h$>$}\\*
+{\ttfamily \#include $<$gtk/gtk.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}strutt\-\_\-dati.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}operazioni\-\_\-grafo.\-h\char`\"{}}\\*
 \subsection*{Funzioni}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{structgrafo}{grafo} \hyperlink{operazioni__grafo_8cc_a908733e6e5a0dd0c60d6364314ff5336}{genera\+\_\+grafo\+\_\+casuale} (int nodi, int min\+\_\+peso, int max\+\_\+peso)
+\hyperlink{structgrafo}{grafo} \hyperlink{operazioni__grafo_8cc_a908733e6e5a0dd0c60d6364314ff5336}{genera\-\_\-grafo\-\_\-casuale} (int nodi, int min\-\_\-peso, int max\-\_\-peso)
 \begin{DoxyCompactList}\small\item\em Genera un grafo casuale debolmente connesso. \end{DoxyCompactList}\item 
-void \hyperlink{operazioni__grafo_8cc_a8397ee9fb34b78d463c7443ed864bb82}{distruggi\+\_\+grafo} (\hyperlink{structgrafo}{grafo} \&G)
+void \hyperlink{operazioni__grafo_8cc_a8397ee9fb34b78d463c7443ed864bb82}{distruggi\-\_\-grafo} (\hyperlink{structgrafo}{grafo} \&G)
 \begin{DoxyCompactList}\small\item\em Distrugge il grafo passato per riferimento, deallocando tutta la memoria da lui precedentemente allocata. \end{DoxyCompactList}\item 
-void \hyperlink{operazioni__grafo_8cc_a0027c68c84be1299edb1a13e5cdb262e}{bellman\+\_\+ford} (const \hyperlink{structgrafo}{grafo} \&G, const int sorgente, int $\ast$\&pred, int $\ast$\&dist)
-\begin{DoxyCompactList}\small\item\em Calcola i cammini minimi di un grafo a partire da un determinato nodo, utilizzando l'algoritmo di Bellman-\/\+Ford. \end{DoxyCompactList}\item 
-void \hyperlink{operazioni__grafo_8cc_a2aa794f7c0f87868bb5dba549ef4bb5e}{stampa\+\_\+adiacenze} (const \hyperlink{structgrafo}{grafo} \&G, ostream \&os)
+void \hyperlink{operazioni__grafo_8cc_a0027c68c84be1299edb1a13e5cdb262e}{bellman\-\_\-ford} (const \hyperlink{structgrafo}{grafo} \&G, const int sorgente, int $\ast$\&pred, int $\ast$\&dist)
+\begin{DoxyCompactList}\small\item\em Calcola i cammini minimi di un grafo a partire da un determinato nodo, utilizzando l'algoritmo di Bellman-\/\-Ford. \end{DoxyCompactList}\item 
+void \hyperlink{operazioni__grafo_8cc_a2aa794f7c0f87868bb5dba549ef4bb5e}{stampa\-\_\-adiacenze} (const \hyperlink{structgrafo}{grafo} \&G, ostream \&os)
 \begin{DoxyCompactList}\small\item\em Stampa le adiacenze del grafo in ingresso su un output stream passato per riferimento. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{Descrizione dettagliata}
-Questo file contiene le funzioni utilizzate dal programma per lavorare sul tipo di dato grafo\+: creazione, distruzione, ricerca dei cammini minimi e stampa delle adiacenze. 
+Questo file contiene le funzioni utilizzate dal programma per lavorare sul tipo di dato grafo\-: creazione, distruzione, ricerca dei cammini minimi e stampa delle adiacenze. 
 
 \subsection{Documentazione delle funzioni}
-\hypertarget{operazioni__grafo_8cc_a0027c68c84be1299edb1a13e5cdb262e}{\index{operazioni\+\_\+grafo.\+cc@{operazioni\+\_\+grafo.\+cc}!bellman\+\_\+ford@{bellman\+\_\+ford}}
-\index{bellman\+\_\+ford@{bellman\+\_\+ford}!operazioni\+\_\+grafo.\+cc@{operazioni\+\_\+grafo.\+cc}}
-\subsubsection[{bellman\+\_\+ford}]{\setlength{\rightskip}{0pt plus 5cm}void bellman\+\_\+ford (
+\hypertarget{operazioni__grafo_8cc_a0027c68c84be1299edb1a13e5cdb262e}{\index{operazioni\-\_\-grafo.\-cc@{operazioni\-\_\-grafo.\-cc}!bellman\-\_\-ford@{bellman\-\_\-ford}}
+\index{bellman\-\_\-ford@{bellman\-\_\-ford}!operazioni_grafo.cc@{operazioni\-\_\-grafo.\-cc}}
+\subsubsection[{bellman\-\_\-ford}]{\setlength{\rightskip}{0pt plus 5cm}void bellman\-\_\-ford (
 \begin{DoxyParamCaption}
 \item[{const {\bf grafo} \&}]{G, }
 \item[{const int}]{source, }
@@ -43,9 +43,9 @@ Questo file contiene le funzioni utilizzate dal programma per lavorare sul tipo 
 )}}\label{operazioni__grafo_8cc_a0027c68c84be1299edb1a13e5cdb262e}
 
 
-Calcola i cammini minimi di un grafo a partire da un determinato nodo, utilizzando l'algoritmo di Bellman-\/\+Ford. 
+Calcola i cammini minimi di un grafo a partire da un determinato nodo, utilizzando l'algoritmo di Bellman-\/\-Ford. 
 
-Vengono allocati in memoria due array delle dimensioni del numero di nodi del grafo che dovranno contenere (per ogni nodo) la distanza dal nodo sorgente (dist) e l'indice del nodo precedente (pred) per calcolare il cammino minimo. Le distanze vengono inizializzate al massimo per il valore intero, mentre gli indici dei nodi precedenti vengono inizializzati a -\/1. Si effettua il rilassamento degli archi per il num\+\_\+nodi-\/1, ed un ulteriore volta per controllare che non vi siano cicli negativi nel grafo. Se ci sono cicli negativi, gli array pred e dist saranno deallocati e i loro puntatori saranno settati a N\+U\+L\+L. Se non esiste un cammino per un ipotetico nodo K, pred\mbox{[}K\mbox{]} sarà -\/1.
+Vengono allocati in memoria due array delle dimensioni del numero di nodi del grafo che dovranno contenere (per ogni nodo) la distanza dal nodo sorgente (dist) e l'indice del nodo precedente (pred) per calcolare il cammino minimo. Le distanze vengono inizializzate al massimo per il valore intero, mentre gli indici dei nodi precedenti vengono inizializzati a -\/1. Si effettua il rilassamento degli archi per il num\-\_\-nodi-\/1, ed un ulteriore volta per controllare che non vi siano cicli negativi nel grafo. Se ci sono cicli negativi, gli array pred e dist saranno deallocati e i loro puntatori saranno settati a N\-U\-L\-L. Se non esiste un cammino per un ipotetico nodo K, pred\mbox{[}K\mbox{]} sarà -\/1.
 
 
 \begin{DoxyParams}{Parametri}
@@ -53,14 +53,14 @@ Vengono allocati in memoria due array delle dimensioni del numero di nodi del gr
 \hline
 {\em source} & Il nodo sorgente da cui partire per calcolare i cammini minimi \\
 \hline
-{\em pred} & Il puntatore all'array dei predecessori, deve essere N\+U\+L\+L \\
+{\em pred} & Il puntatore all'array dei predecessori, deve essere N\-U\-L\-L \\
 \hline
-{\em dist} & Il puntatore all'array delle distanze, deve essere N\+U\+L\+L \\
+{\em dist} & Il puntatore all'array delle distanze, deve essere N\-U\-L\-L \\
 \hline
 \end{DoxyParams}
-\hypertarget{operazioni__grafo_8cc_a8397ee9fb34b78d463c7443ed864bb82}{\index{operazioni\+\_\+grafo.\+cc@{operazioni\+\_\+grafo.\+cc}!distruggi\+\_\+grafo@{distruggi\+\_\+grafo}}
-\index{distruggi\+\_\+grafo@{distruggi\+\_\+grafo}!operazioni\+\_\+grafo.\+cc@{operazioni\+\_\+grafo.\+cc}}
-\subsubsection[{distruggi\+\_\+grafo}]{\setlength{\rightskip}{0pt plus 5cm}void distruggi\+\_\+grafo (
+\hypertarget{operazioni__grafo_8cc_a8397ee9fb34b78d463c7443ed864bb82}{\index{operazioni\-\_\-grafo.\-cc@{operazioni\-\_\-grafo.\-cc}!distruggi\-\_\-grafo@{distruggi\-\_\-grafo}}
+\index{distruggi\-\_\-grafo@{distruggi\-\_\-grafo}!operazioni_grafo.cc@{operazioni\-\_\-grafo.\-cc}}
+\subsubsection[{distruggi\-\_\-grafo}]{\setlength{\rightskip}{0pt plus 5cm}void distruggi\-\_\-grafo (
 \begin{DoxyParamCaption}
 \item[{{\bf grafo} \&}]{G}
 \end{DoxyParamCaption}
@@ -69,44 +69,44 @@ Vengono allocati in memoria due array delle dimensioni del numero di nodi del gr
 
 Distrugge il grafo passato per riferimento, deallocando tutta la memoria da lui precedentemente allocata. 
 
-Scorre tutta la lista dei nodi del grafo e per ogni nodo scorre la lista di adiacenze, deallocando tutti gli archi e tutti i nodi. Il numero dei nodi del grafo viene poi settato a 0 e il puntatore alla lista dei nodi viene settato a N\+U\+L\+L.
+Scorre tutta la lista dei nodi del grafo e per ogni nodo scorre la lista di adiacenze, deallocando tutti gli archi e tutti i nodi. Il numero dei nodi del grafo viene poi settato a 0 e il puntatore alla lista dei nodi viene settato a N\-U\-L\-L.
 
 
 \begin{DoxyParams}{Parametri}
 {\em G} & Il grafo da eliminare \\
 \hline
 \end{DoxyParams}
-\hypertarget{operazioni__grafo_8cc_a908733e6e5a0dd0c60d6364314ff5336}{\index{operazioni\+\_\+grafo.\+cc@{operazioni\+\_\+grafo.\+cc}!genera\+\_\+grafo\+\_\+casuale@{genera\+\_\+grafo\+\_\+casuale}}
-\index{genera\+\_\+grafo\+\_\+casuale@{genera\+\_\+grafo\+\_\+casuale}!operazioni\+\_\+grafo.\+cc@{operazioni\+\_\+grafo.\+cc}}
-\subsubsection[{genera\+\_\+grafo\+\_\+casuale}]{\setlength{\rightskip}{0pt plus 5cm}{\bf grafo} genera\+\_\+grafo\+\_\+casuale (
+\hypertarget{operazioni__grafo_8cc_a908733e6e5a0dd0c60d6364314ff5336}{\index{operazioni\-\_\-grafo.\-cc@{operazioni\-\_\-grafo.\-cc}!genera\-\_\-grafo\-\_\-casuale@{genera\-\_\-grafo\-\_\-casuale}}
+\index{genera\-\_\-grafo\-\_\-casuale@{genera\-\_\-grafo\-\_\-casuale}!operazioni_grafo.cc@{operazioni\-\_\-grafo.\-cc}}
+\subsubsection[{genera\-\_\-grafo\-\_\-casuale}]{\setlength{\rightskip}{0pt plus 5cm}{\bf grafo} genera\-\_\-grafo\-\_\-casuale (
 \begin{DoxyParamCaption}
 \item[{int}]{nodi, }
-\item[{int}]{min\+\_\+peso, }
-\item[{int}]{max\+\_\+peso}
+\item[{int}]{min\-\_\-peso, }
+\item[{int}]{max\-\_\-peso}
 \end{DoxyParamCaption}
 )}}\label{operazioni__grafo_8cc_a908733e6e5a0dd0c60d6364314ff5336}
 
 
 Genera un grafo casuale debolmente connesso. 
 
-Alloca il numero di nodi passato come parametro in memoria e li appende alla lista dei nodi del grafo, assegnando ad ognuno il proprio id ed inizializzando temporaneamente la loro lista di adiacenze a N\+U\+L\+L. Dopodichè vengono create le adiacenze\+: per rendere il grafo connesso è stato deciso che esiste sempre l'arco che collega il nodo N con il nodo N+1. Inoltre ad ogni nodo viene aggiunto un numero casuale di archi che puntano ad altri nodi, scelti sempre casualmente. \begin{DoxySeeAlso}{Si veda anche}
-\hyperlink{strutt__dati_8h}{strutt\+\_\+dati.\+h} per avere più informazioni su come è strutturato il tipo di dato \hyperlink{structgrafo}{grafo}.
+Alloca il numero di nodi passato come parametro in memoria e li appende alla lista dei nodi del grafo, assegnando ad ognuno il proprio id ed inizializzando temporaneamente la loro lista di adiacenze a N\-U\-L\-L. Dopodichè vengono create le adiacenze\-: per rendere il grafo connesso è stato deciso che esiste sempre l'arco che collega il nodo N con il nodo N+1. Inoltre ad ogni nodo viene aggiunto un numero casuale di archi che puntano ad altri nodi, scelti sempre casualmente. \begin{DoxySeeAlso}{Si veda anche}
+\hyperlink{strutt__dati_8h}{strutt\-\_\-dati.\-h} per avere più informazioni su come è strutturato il tipo di dato \hyperlink{structgrafo}{grafo}.
 \end{DoxySeeAlso}
 
 \begin{DoxyParams}{Parametri}
 {\em nodi} & Il numero di nodi del grafo da generare \\
 \hline
-{\em min\+\_\+peso} & Il peso minimo degli archi \\
+{\em min\-\_\-peso} & Il peso minimo degli archi \\
 \hline
-{\em max\+\_\+peso} & Il peso massimo degli archi \\
+{\em max\-\_\-peso} & Il peso massimo degli archi \\
 \hline
 \end{DoxyParams}
 \begin{DoxyReturn}{Restituisce}
 Il grafo generato 
 \end{DoxyReturn}
-\hypertarget{operazioni__grafo_8cc_a2aa794f7c0f87868bb5dba549ef4bb5e}{\index{operazioni\+\_\+grafo.\+cc@{operazioni\+\_\+grafo.\+cc}!stampa\+\_\+adiacenze@{stampa\+\_\+adiacenze}}
-\index{stampa\+\_\+adiacenze@{stampa\+\_\+adiacenze}!operazioni\+\_\+grafo.\+cc@{operazioni\+\_\+grafo.\+cc}}
-\subsubsection[{stampa\+\_\+adiacenze}]{\setlength{\rightskip}{0pt plus 5cm}void stampa\+\_\+adiacenze (
+\hypertarget{operazioni__grafo_8cc_a2aa794f7c0f87868bb5dba549ef4bb5e}{\index{operazioni\-\_\-grafo.\-cc@{operazioni\-\_\-grafo.\-cc}!stampa\-\_\-adiacenze@{stampa\-\_\-adiacenze}}
+\index{stampa\-\_\-adiacenze@{stampa\-\_\-adiacenze}!operazioni_grafo.cc@{operazioni\-\_\-grafo.\-cc}}
+\subsubsection[{stampa\-\_\-adiacenze}]{\setlength{\rightskip}{0pt plus 5cm}void stampa\-\_\-adiacenze (
 \begin{DoxyParamCaption}
 \item[{const {\bf grafo} \&}]{G, }
 \item[{ostream \&}]{os}
