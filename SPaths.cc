@@ -98,6 +98,21 @@ static void mostra_error_alert (const char *str_princ, const char *str_secon) {
 }
 
 /**
+ * @brief Aggiorna la DrawingArea, richiedendo ad essa di ridisegnarne il
+ * contenuto
+ * @details La DrawingArea viene ridisegnata grazie alla funzione della
+ * libreria gtk+ gtk_widget_queue_draw()
+ */
+static void aggiorna_drawing_area() {
+
+    GtkWidget *drawingarea = GTK_WIDGET(
+        gtk_builder_get_object(builder, "drawingarea1"));
+
+    gtk_widget_queue_draw(drawingarea);
+
+}
+
+/**
  * @brief Aggiorna la barra di stato dell'interfaccia grafica
  * @details Controlla se è stato inizializzato un grafo, controllandone il
  * numero dei nodi e aggiorna la label sinistra della barra di stato di 
@@ -198,11 +213,8 @@ extern "C" void load_handler(GtkWidget *widget, gpointer data) {
         mostra_error_alert("Caricamento del grafo fallito",
             "Non è stato possibile aprire il file grafo.txt per la lettura");
 
-    GtkWidget *drawingarea = GTK_WIDGET(
-        gtk_builder_get_object(builder, "drawingarea1"));
-
-    gtk_widget_queue_draw(drawingarea);
-
+    
+    aggiorna_drawing_area();
     aggiorna_barra_stato();
     aggiorna_text_view_grafo();
 }
@@ -271,11 +283,7 @@ extern "C" void crea_grafo_handler(GtkWidget *widget, gpointer data) {
 	stampa_pesi = gtk_toggle_button_get_active(GTK_TOGGLE_BUTTON(
 		gtk_builder_get_object(builder, "checkbutton1")));
 
-    GtkWidget *drawingarea = GTK_WIDGET(
-		gtk_builder_get_object(builder, "drawingarea1"));
-
-    gtk_widget_queue_draw(drawingarea);
-
+    aggiorna_drawing_area();
     aggiorna_barra_stato();
     aggiorna_text_view_grafo();
     
@@ -348,11 +356,8 @@ extern "C" void disegna_percorso_handler(GtkWidget *widget, gpointer data) {
     dest_percorso = arrivo;
     dis_percorso = TRUE;
 
-    GtkWidget *drawingarea = GTK_WIDGET(
-		gtk_builder_get_object(builder, "drawingarea1"));
-
-    gtk_widget_queue_draw(drawingarea);
-
+    
+    aggiorna_drawing_area();
     aggiorna_barra_stato();
 
     gtk_widget_hide(gtk_widget_get_toplevel(GTK_WIDGET(widget)));
@@ -384,10 +389,7 @@ extern "C" void elimina_grafo_handler (GtkMenuItem *menuitem,
     sorg_percorso = -1;
     dest_percorso = -1;
 
-	GtkWidget *drawingarea = GTK_WIDGET(
-	gtk_builder_get_object(builder, "drawingarea1"));
-
-    gtk_widget_queue_draw(drawingarea);
+	aggiorna_drawing_area();
 
     distruggi_grafo(G);
 
