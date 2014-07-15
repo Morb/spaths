@@ -1,25 +1,212 @@
 \begin{theindex}
 
   \item {arco}, \hyperpage{7}
+    \subitem {id\discretionary {-}{}{}\_\discretionary {-}{}{}nodo\discretionary {-}{}{}\_\discretionary {-}{}{}adj}, 
+		\hyperpage{7}
     \subitem {peso}, \hyperpage{7}
 
   \indexspace
 
+  \item {bellman\discretionary {-}{}{}\_\discretionary {-}{}{}ford}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}cc}, 
+		\hyperpage{17}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}h}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {carica\discretionary {-}{}{}\_\discretionary {-}{}{}da\discretionary {-}{}{}\_\discretionary {-}{}{}file}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}file.\discretionary {-}{}{}cc}, 
+		\hyperpage{14}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}file.\discretionary {-}{}{}h}, 
+		\hyperpage{15}
+  \item {crea\discretionary {-}{}{}\_\discretionary {-}{}{}grafo\discretionary {-}{}{}\_\discretionary {-}{}{}handler}
+    \subitem {S\discretionary {-}{}{}Paths.\discretionary {-}{}{}cc}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {D1}
+    \subitem {strutt\discretionary {-}{}{}\_\discretionary {-}{}{}dati.\discretionary {-}{}{}h}, 
+		\hyperpage{22}
+  \item {D2}
+    \subitem {strutt\discretionary {-}{}{}\_\discretionary {-}{}{}dati.\discretionary {-}{}{}h}, 
+		\hyperpage{22}
+  \item {D4}
+    \subitem {strutt\discretionary {-}{}{}\_\discretionary {-}{}{}dati.\discretionary {-}{}{}h}, 
+		\hyperpage{23}
+  \item {D8}
+    \subitem {strutt\discretionary {-}{}{}\_\discretionary {-}{}{}dati.\discretionary {-}{}{}h}, 
+		\hyperpage{23}
+  \item {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}arco}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}cc}, 
+		\hyperpage{11}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}h}, 
+		\hyperpage{13}
+  \item {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}cc}, 
+		\hyperpage{12}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}h}, 
+		\hyperpage{13}
+  \item {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}cc}, 
+		\hyperpage{11}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}arco}, 
+		\hyperpage{11}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo}, 
+		\hyperpage{12}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}percorso}, 
+		\hyperpage{12}
+  \item {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}h}, 
+		\hyperpage{12}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}arco}, 
+		\hyperpage{13}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo}, 
+		\hyperpage{13}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}percorso}, 
+		\hyperpage{13}
+  \item {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}percorso}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}cc}, 
+		\hyperpage{12}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}h}, 
+		\hyperpage{13}
+  \item {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}percorso\discretionary {-}{}{}\_\discretionary {-}{}{}handler}
+    \subitem {S\discretionary {-}{}{}Paths.\discretionary {-}{}{}cc}, 
+		\hyperpage{21}
+  \item {distruggi\discretionary {-}{}{}\_\discretionary {-}{}{}grafo}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}cc}, 
+		\hyperpage{17}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}h}, 
+		\hyperpage{18}
+  \item {draw\discretionary {-}{}{}\_\discretionary {-}{}{}handler}
+    \subitem {S\discretionary {-}{}{}Paths.\discretionary {-}{}{}cc}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {genera\discretionary {-}{}{}\_\discretionary {-}{}{}grafo\discretionary {-}{}{}\_\discretionary {-}{}{}casuale}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}cc}, 
+		\hyperpage{17}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}h}, 
+		\hyperpage{19}
   \item {grafo}, \hyperpage{7}
+    \subitem {lista\discretionary {-}{}{}\_\discretionary {-}{}{}nodi}, 
+		\hyperpage{8}
+    \subitem {num\discretionary {-}{}{}\_\discretionary {-}{}{}nodi}, 
+		\hyperpage{8}
+
+  \indexspace
+
+  \item {hide\discretionary {-}{}{}\_\discretionary {-}{}{}main\discretionary {-}{}{}\_\discretionary {-}{}{}window}
+    \subitem {S\discretionary {-}{}{}Paths.\discretionary {-}{}{}cc}, 
+		\hyperpage{21}
 
   \indexspace
 
   \item {id}
     \subitem {nodo}, \hyperpage{8}
+  \item {id\discretionary {-}{}{}\_\discretionary {-}{}{}nodo\discretionary {-}{}{}\_\discretionary {-}{}{}adj}
+    \subitem {arco}, \hyperpage{7}
+
+  \indexspace
+
+  \item {lista\discretionary {-}{}{}\_\discretionary {-}{}{}adiacenze}
+    \subitem {nodo}, \hyperpage{8}
+  \item {lista\discretionary {-}{}{}\_\discretionary {-}{}{}nodi}
+    \subitem {grafo}, \hyperpage{8}
+  \item {load\discretionary {-}{}{}\_\discretionary {-}{}{}handler}
+    \subitem {S\discretionary {-}{}{}Paths.\discretionary {-}{}{}cc}, 
+		\hyperpage{21}
+
+  \indexspace
+
+  \item {main}
+    \subitem {S\discretionary {-}{}{}Paths.\discretionary {-}{}{}cc}, 
+		\hyperpage{21}
 
   \indexspace
 
   \item {nodo}, \hyperpage{8}
     \subitem {id}, \hyperpage{8}
+    \subitem {lista\discretionary {-}{}{}\_\discretionary {-}{}{}adiacenze}, 
+		\hyperpage{8}
+  \item {num\discretionary {-}{}{}\_\discretionary {-}{}{}nodi}
+    \subitem {grafo}, \hyperpage{8}
+
+  \indexspace
+
+  \item {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}file.\discretionary {-}{}{}cc}, 
+		\hyperpage{14}
+    \subitem {carica\discretionary {-}{}{}\_\discretionary {-}{}{}da\discretionary {-}{}{}\_\discretionary {-}{}{}file}, 
+		\hyperpage{14}
+    \subitem {salva\discretionary {-}{}{}\_\discretionary {-}{}{}su\discretionary {-}{}{}\_\discretionary {-}{}{}file}, 
+		\hyperpage{14}
+  \item {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}file.\discretionary {-}{}{}h}, 
+		\hyperpage{15}
+    \subitem {carica\discretionary {-}{}{}\_\discretionary {-}{}{}da\discretionary {-}{}{}\_\discretionary {-}{}{}file}, 
+		\hyperpage{15}
+    \subitem {salva\discretionary {-}{}{}\_\discretionary {-}{}{}su\discretionary {-}{}{}\_\discretionary {-}{}{}file}, 
+		\hyperpage{16}
+  \item {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}cc}, 
+		\hyperpage{16}
+    \subitem {bellman\discretionary {-}{}{}\_\discretionary {-}{}{}ford}, 
+		\hyperpage{17}
+    \subitem {distruggi\discretionary {-}{}{}\_\discretionary {-}{}{}grafo}, 
+		\hyperpage{17}
+    \subitem {genera\discretionary {-}{}{}\_\discretionary {-}{}{}grafo\discretionary {-}{}{}\_\discretionary {-}{}{}casuale}, 
+		\hyperpage{17}
+    \subitem {stampa\discretionary {-}{}{}\_\discretionary {-}{}{}adiacenze}, 
+		\hyperpage{17}
+  \item {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}h}, 
+		\hyperpage{18}
+    \subitem {bellman\discretionary {-}{}{}\_\discretionary {-}{}{}ford}, 
+		\hyperpage{18}
+    \subitem {distruggi\discretionary {-}{}{}\_\discretionary {-}{}{}grafo}, 
+		\hyperpage{18}
+    \subitem {genera\discretionary {-}{}{}\_\discretionary {-}{}{}grafo\discretionary {-}{}{}\_\discretionary {-}{}{}casuale}, 
+		\hyperpage{19}
+    \subitem {stampa\discretionary {-}{}{}\_\discretionary {-}{}{}adiacenze}, 
+		\hyperpage{19}
 
   \indexspace
 
   \item {peso}
     \subitem {arco}, \hyperpage{7}
+
+  \indexspace
+
+  \item {S\discretionary {-}{}{}Paths.\discretionary {-}{}{}cc}, 
+		\hyperpage{19}
+    \subitem {crea\discretionary {-}{}{}\_\discretionary {-}{}{}grafo\discretionary {-}{}{}\_\discretionary {-}{}{}handler}, 
+		\hyperpage{21}
+    \subitem {disegna\discretionary {-}{}{}\_\discretionary {-}{}{}percorso\discretionary {-}{}{}\_\discretionary {-}{}{}handler}, 
+		\hyperpage{21}
+    \subitem {draw\discretionary {-}{}{}\_\discretionary {-}{}{}handler}, 
+		\hyperpage{21}
+    \subitem {hide\discretionary {-}{}{}\_\discretionary {-}{}{}main\discretionary {-}{}{}\_\discretionary {-}{}{}window}, 
+		\hyperpage{21}
+    \subitem {load\discretionary {-}{}{}\_\discretionary {-}{}{}handler}, 
+		\hyperpage{21}
+    \subitem {main}, \hyperpage{21}
+    \subitem {save\discretionary {-}{}{}\_\discretionary {-}{}{}handler}, 
+		\hyperpage{22}
+  \item {salva\discretionary {-}{}{}\_\discretionary {-}{}{}su\discretionary {-}{}{}\_\discretionary {-}{}{}file}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}file.\discretionary {-}{}{}cc}, 
+		\hyperpage{14}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}file.\discretionary {-}{}{}h}, 
+		\hyperpage{16}
+  \item {save\discretionary {-}{}{}\_\discretionary {-}{}{}handler}
+    \subitem {S\discretionary {-}{}{}Paths.\discretionary {-}{}{}cc}, 
+		\hyperpage{22}
+  \item {stampa\discretionary {-}{}{}\_\discretionary {-}{}{}adiacenze}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}cc}, 
+		\hyperpage{17}
+    \subitem {operazioni\discretionary {-}{}{}\_\discretionary {-}{}{}grafo.\discretionary {-}{}{}h}, 
+		\hyperpage{19}
+  \item {strutt\discretionary {-}{}{}\_\discretionary {-}{}{}dati.\discretionary {-}{}{}h}, 
+		\hyperpage{22}
+    \subitem {D1}, \hyperpage{22}
+    \subitem {D2}, \hyperpage{22}
+    \subitem {D4}, \hyperpage{23}
+    \subitem {D8}, \hyperpage{23}
 
 \end{theindex}
