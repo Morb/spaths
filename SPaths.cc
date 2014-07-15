@@ -409,6 +409,21 @@ extern "C" void trova_percorso_handler (GtkMenuItem *menuitem,
 }
 
 /**
+ * @brief Handler che resetta i valori utilizzati per disegnare il percorso,
+ * nascondendolo.
+ */
+extern "C" void nascondi_percorso_handler (GtkMenuItem *menuitem, 
+    gpointer user_data) {
+
+    dis_percorso = FALSE;
+    sorg_percorso = -1;
+    dest_percorso = -1;
+
+    aggiorna_drawing_area();
+    aggiorna_barra_stato();
+}
+
+/**
  * @brief Handler che mostra la dialog contenente le adiacenze del grafo,
  * scritte su una textview.
  */
